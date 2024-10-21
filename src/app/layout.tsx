@@ -13,6 +13,7 @@ const Layout = ({ children }: any) => (
       <meta name="msapplication-TileColor" content="#ffffff" />
       <meta name="msapplication-TileImage" content="/ms-icon-144x144.png" />
       <meta name="theme-color" content="#ffffff"></meta>
+      <meta name="google-site-verification" content="-f8IpZrg1Mvp80bVF0N4SRvSWlzBmeHE9kMhQkdOYDI" />
     </head>
     <body>{children}</body>
   </html>
