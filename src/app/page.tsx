@@ -17,7 +17,7 @@ const Home = () => (
     <Header />
     <div className="h-full pt-[64px]">
       <section className="flex h-screen">
-        <div className="z-30 grid place-content-center px-8 max-[400px]:px-4 sm:px-16 md:px-32 lg:px-48">
+        <div className="-mt-24 md:mt-0 z-30 grid place-content-center px-8 max-[400px]:px-4 sm:px-16 md:px-32 lg:px-48">
           <div className="-mt-24 flex w-4/5 text-3xl font-extrabold leading-9  sm:w-2/3 md:mt-0 md:text-4xl text-[#03BD47]">Zing - 10 Minute Food Delivery</div>
           <div className=" flex w-4/5 text-1xl font-extrabold leading-9 text-gray-800 sm:w-2/3 mt-4 md:text-2xl ">Get your food delivered in 10 Minutes</div>
 
