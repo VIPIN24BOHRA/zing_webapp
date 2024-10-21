@@ -3,7 +3,7 @@ import React from 'react'
 
 import Footer from '@/components/Footer'
 import Header from '@/components/Header'
-import AppstoreImage from '@/img/app-store.jpg'
+// import AppstoreImage from '@/img/app-store.jpg'
 import GoogleplayImage from '@/img/google-play.jpg'
 import HomeImage from '@/img/home.png'
 import PhoneImage from '@/img/phone.png'
@@ -18,9 +18,7 @@ const Home = () => (
     <div className="h-full pt-[64px]">
       <section className="flex h-screen">
         <div className="z-30 grid place-content-center px-8 max-[400px]:px-4 sm:px-16 md:px-32 lg:px-48">
-          <div className="-mt-24 flex w-4/5 text-3xl font-extrabold leading-9 text-gray-800 sm:w-2/3 md:mt-0 md:text-4xl text-[#03BD47]">
-            Zing - 10 Minute Food Delivery
-          </div>
+          <div className="-mt-24 flex w-4/5 text-3xl font-extrabold leading-9  sm:w-2/3 md:mt-0 md:text-4xl text-[#03BD47]">Zing - 10 Minute Food Delivery</div>
           <div className=" flex w-4/5 text-1xl font-extrabold leading-9 text-gray-800 sm:w-2/3 mt-4 md:text-2xl ">Get your food delivered in 10 Minutes</div>
 
           <div className="my-4 flex 	w-3/4 text-base leading-7 tracking-wider text-[#86949d] sm:w-1/2 md:w-1/3 md:text-base">
@@ -43,7 +41,7 @@ const Home = () => (
         <div className="z-30 grid place-content-center  px-8 max-[400px]:px-4 sm:px-16 md:px-32 lg:px-48">
           <div className="w-3/3 flex text-2xl font-extrabold leading-9 text-gray-800 md:w-1/2 md:text-3xl">Get your order in just 10 minutes!</div>
 
-          <div className="w-3/3 flex text-1xl font-extrabold leading-9 text-gray-800 md:w-1/2 md:text-2xl text-[#03BD47] mt-4">
+          <div className="w-3/3 flex text-1xl font-extrabold leading-9  md:w-1/2 md:text-2xl text-[#03BD47] mt-4">
             Zing – Lightning-Fast Food, Always on Time!
           </div>
 
