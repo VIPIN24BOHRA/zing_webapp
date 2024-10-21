@@ -1,0 +1,18 @@
+{
+  "name": "zing-food-webapp",
+  "env": {
+    "TITLE": {
+      "description": "Title for your site"
+    }
+  },
+  "options": {
+    "allow-unauthenticated": true,
+    "memory": "512Mi",
+    "cpu": "1",
+    "port": 3000,
+    "http2": false,
+    "concurrency": 80,
+    "max-instances": 10,
+    "min-instances": 0
+  }
+}
