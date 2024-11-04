@@ -9,7 +9,7 @@ import { createCustomToken } from '@/modules/firebase/auth'
 
 async function handleGetRequest(_req: NextApiRequest, res: NextApiResponse) {
   try {
-    res.status(401).send(`verifyOTP is up and running`)
+    res.status(200).send(`verifyOTP is up and running`)
   } catch (err) {
     console.log(err)
   }
