@@ -12,7 +12,6 @@ import { createUserForOTPSMS } from '@/modules/firebase/database'
 async function handleGetRequest(_req: NextApiRequest, res: NextApiResponse) {
   try {
     res.status(200).send(`sendOTP is up and running`)
-
   } catch (err) {
     console.log(err)
   }
