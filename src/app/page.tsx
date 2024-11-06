@@ -30,7 +30,7 @@ const Home = () => (
             {/* <a className="" href="https://apps.apple.com/in/app/dial-social/id1643536800" target="_blank" rel="noreferrer">
               <Image className="z-10 h-[40px] w-auto md:h-[50px]" src={AppstoreImage} alt="appstore" />
             </a> */}
-            <a className="ml-0 mt-4 md:ml-4 md:mt-0" href="https://play.google.com/store/apps/details?id=com.shop.clipskart" target="_blank" rel="noreferrer">
+            <a className="ml-0 mt-4 md:ml-4 md:mt-0" href="https://play.google.com/store/apps/details?id=com.food.zingFood" target="_blank" rel="noreferrer">
               <Image className="z-10 h-[40px] w-auto md:h-[50px]" src={GoogleplayImage} alt="googleplay" />
             </a>
           </div>
@@ -106,7 +106,7 @@ const Home = () => (
             {/* <a className="place-self-center py-1" href="https://apps.apple.com/in/app/dial-social/id1643536800" target="_blank" rel="noreferrer">
               <Image className="z-10 h-[40px] w-auto md:h-[50px]" src={AppstoreImage} alt="appstore" />
             </a> */}
-            <a className="place-self-center py-1" href="https://play.google.com/store/apps/details?id=com.shop.clipskart" target="_blank" rel="noreferrer">
+            <a className="place-self-center py-1" href="https://play.google.com/store/apps/details?id=com.food.zingFood" target="_blank" rel="noreferrer">
               <Image className="z-10 h-[40px] w-auto md:h-[50px]" src={GoogleplayImage} alt="googleplay" />
             </a>
           </div>
