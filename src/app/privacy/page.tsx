@@ -12,1021 +12,259 @@ const Home = () => (
           <div className="mb-5 w-full text-center text-2xl font-extrabold leading-7 text-black">Zing App Privacy Policy</div>
           <div className="text-left text-base text-gray-800">
             <a id="top"></a>
-            As part of our mission to spread good vibes, we want you to be able to share the things that matter to you most with your friends, family and anyone
-            else around you. It’s important to us that you feel comfortable and trust us with your data when using the Dial App Services (as detailed under Dial
-            App’s Terms of Service). Please take a few minutes to read this Privacy Policy, so that you understand what data we collect, what we do with it and
-            why, how we protect it and what are your rights in relation to this data.
+            <b>Nara Video Tech Private Limited (“Zing”),</b> a company having its registered office at{' '}
+            <b>716, ILD Trade Centre Sector-47 Sohna Road Gurgaon Gurgaon Gurgaon Haryana - 122018,</b> is the owner of the brand Zing Food App and web based
+            platform ‘getzing.app’ and mobile application ‘’ (collectively, the “Platform”). The ‘Company’ is a licensee of the brand zing and the Platform, and
+            is responsible for operating and managing the Platform under the license. You can access the complete Company details here.
             <br />
             <br />
-            In general, we collect data that allows us to provide you with an optimal experience while using our Services. This includes, for example, some
-            basic benefits like allowing other users to see the name and picture you choose to show and the more advanced ones, like processing your
-            registration and financial data to allow you to purchase our paid solutions, if you choose to use them. It also helps us to keep our Services clear
-            of fraud and spam, and it allows us to get a unique understanding of what additional services may be useful to you, in addition to other purposes
-            outlined in this Privacy Policy.
+            This privacy policy (Privacy Policy) describes the policies and procedures applicable to the collection, use, disclosure and protection of Your
+            information shared with Us while You use the Platform, and for the purpose of this Privacy Policy "We", "Us", or "Our" refers to any of the Company
+            or zing or both of them, wherever context so require and the terms “You”, “Your”, “Yourself” or “User” refer to user of the Platform. We value the
+            trust You place in Us. That is why, We maintain reasonable security standards for securing the transactions and Your information.
             <br />
             <br />
-          </div>
-          <h6 className="mt-8 mb-4 font-bold text-blue-600">Table of Content</h6>
-          <ul className="list-inside list-disc font-bold text-blue-600">
-            <li>
-              <a href="#data-we-collect" className="hover:underline">
-                The Data We Collect
-              </a>
-            </li>
-            <li>
-              <a href="#how-we-use-data" className="hover:underline">
-                How We Use Your Data
-              </a>
-            </li>
-            <li>
-              <a href="#what-other-users-see" className="hover:underline">
-                What Other Users Can See
-              </a>
-            </li>
-            <li>
-              <a href="#data-sharing" className="hover:underline">
-                How We Share Your Personal Data
-              </a>
-            </li>
-            <li>
-              <a href="#international-data-transfers" className="hover:underline">
-                International Data Transfers
-              </a>
-            </li>
-            <li>
-              <a href="#data-retention" className="hover:underline">
-                Data Retention
-              </a>
-            </li>
-            <li>
-              <a href="#your-choices-and-controls" className="hover:underline">
-                Your Choices and Controls
-              </a>
-            </li>
-            <li>
-              <a href="#your-rights" className="hover:underline">
-                Your Rights Related to Your Personal Data
-              </a>
-            </li>
-            <li>
-              <a href="#data-security" className="hover:underline">
-                Data Security and Storage
-              </a>
-            </li>
-            <li>
-              <a href="#third-parties" className="hover:underline">
-                Third-Party Websites, Apps and Back-Ups
-              </a>
-            </li>
-            <li>
-              <a href="#children-privacy" className="hover:underline">
-                Children&#8217;s Privacy
-              </a>
-            </li>
-            <li>
-              <a href="#changes" className="hover:underline">
-                Changes to this Privacy Policy
-              </a>
-            </li>
-            <li>
-              <a href="#contact-us" className="hover:underline">
-                Contact Us
-              </a>
-            </li>
-          </ul>
-
-          <div className="mt-8 text-left text-base text-gray-800">
-            <a id="data-we-collect"></a>
-            <h6 className="mb-4 font-bold text-blue-600">The Data We Collect</h6>
-            The operation and use of our Dial App App and Services involves collection of personal data, where the types of such data depend on the type of
-            Service and interaction with us. For example, when you sign up for Dial App, you directly provide us personal data. We also automatically collect
-            certain personal data from our users’ device. We explain which information we collect and how we collect it below.
+            This Privacy Policy is an electronic record under the Information Technology Act, 2000 and the rules made thereunder. This Privacy Policy does not
+            require any physical, electronic, or digital signature by Us and has been published in accordance with the provisions of the Information Technology
+            Act, 2000 and the rules made thereunder that require publishing the privacy policy and terms of use on thePlatform. Please read the Privacy Policy
+            carefully prior to using or registering on the Platform or accessing any material, information or availing any Services through the Platform.
             <br />
             <br />
-            The types of personal data collected through use of our Services, including App and website, are listed below. We note that, some types of personal
-            data we collect are required for all Dial App Services (for example, your phone number), some types may be required solely for certain Services or
-            features you decide to use (for example, Dial App Pay), and some are optional, and subject to your discretion (for example, your photo).
+            This Privacy Policy specifies the manner in which Your information is collected, received, stored, processed, disclosed, transferred, dealt with or
+            otherwise handled by Us. This Privacy Policy does not apply to information that You provide to, or that is collected by, any third-party through the
+            Platform, and any Third-Party Sites that You access or use in connection with the Services offered on the Platform. By visiting the Platform or
+            setting up/creating an user account (Account) on the Platform, You accept and agree to be bound by the terms and conditions of this Privacy Policy
+            and consent to Us collecting, storing, processing, transferring and sharing information including Your Personal Information (defined below) in
+            accordance with this Privacy Policy. Further, in case You are under the age of 18 years, You <br />
+            <br />
+            (i) accept and acknowledge that You are accessing the Platform through a parent or a legal guardian who is of a legal age to form a binding contract
+            under the Indian Contract Act, 1872 and such person has accepted this Privacy Policy on Your behalf to bind You; and <br />
+            (ii) hereby acknowledge that You are accessing this Platform under the supervision of Your parent or legal guardian and have their express
+            permission to use the Services.
             <br />
             <br />
-            We do not read, listen or store your messages and/ or calls made privately:
+            We may update this Privacy Policy in order to comply with the regulatory or administrative requirements. If We make any significant changes to this
+            Privacy Policy, We will endeavour to provide You with reasonable notice of such changes, such as via prominent notice on the Platform or any other
+            communication channels on record. To the extent permitted under applicable law, Your continued use of the Services after We publish or send a notice
+            about the changes to this Privacy Policy shall constitute Your consent to the updated Privacy Policy. This Privacy Policy is incorporated into and
+            subject to the terms of use available on the Platform (“Terms”) and shall be read harmoniously and in conjunction with the Terms. All capitalised
+            terms used herein however not defined under this Privacy Policy shall have the meaning ascribed to them under the Terms.
             <br />
             <br />
-            <h6 className="my-4 text-blue-600">
-              Data provided or collected through registration & under your Dial App account or participation in Dial App’s activities:
-            </h6>
-            <ul className="list-inside list-disc">
-              <li>
-                <strong>Identifiers</strong>, such as:
-                <ul className="ml-8 list-inside list-disc">
-                  <li>Your mobile number (including mobile country/network code);</li>
-                  <li>Your personal details, (e.g., name, date of birth), if you provided them;</li>
-                  <li>Your contact details (e.g., email address), if you provided them;</li>
-
-                  <li>Device identifiers, as described below.</li>
-                </ul>
-              </li>
-              <li>
-                <strong>Your photo</strong>, if you provided it (including any avatar, etc.).
-              </li>
-              <li>
-                <strong>Your interests</strong>, if you chose to provide them to us.
-              </li>
-              <li>
-                <strong>Your phone address book</strong>, meaning, the names, the phone numbers and the favorites list from your contact lists, if you approved
-                access to them.
-              </li>
-            </ul>
-            <h6 className="my-4 text-blue-600">Geolocation data </h6>
-            <ul className="list-inside list-disc">
-              <li>
-                <strong>General location</strong>, we use IP addresses we collect and additional information (e.g., phone number area codes), to estimate your
-                general location (e.g., city level).
-              </li>
-            </ul>
-            <h6 className="my-4 text-blue-600">
-              Data we collect automatically from your device, e.g., data collected using cookies and other device identifying technologies (Cookies and Tracking
-              Technologies):
-            </h6>
-            <ul className="my-4 list-inside list-disc">
-              <li>
-                <strong>Device identifiers</strong>, meaning identifiers for devices you have used to access our websites and application, including IP address,
-                unique device identifiers, advertising related identifiers, MAC identifiers.
-              </li>
-              <li>
-                <strong>Electronic network activity data</strong>, such as information stored on log files, when you access our Service and website for example,
-                including access time and date stamp, pages viewed, IP address, the pages that directed you to our website, information related to errors and
-                crash reports.
-              </li>
-              <li>
-                <strong>Activity data</strong>, relating to your usage of Services, such as connection status, whether you have received and seen messages sent
-                to you, if you are currently on another call and data related to the calls that you send and receive, such as length of the call, who called
-                who, who messaged who, and at what time, your personal preferences related to such usage (for example how often, for how long, what options are
-                selected, etc.).
-              </li>
-              <li>
-                <strong>Other device data, </strong>e.g., data about your device’s operating system, your browser, browser or operating system language, your
-                wireless network, your mobile carrier.
-              </li>
-            </ul>
-            <h6 className="my-4 text-blue-600">Data we collect or receive from other sources and inferred data:</h6>
-            <ul className="my-4 list-inside list-disc">
-              <li>
-                <strong>Your contact name</strong>, as saved on other users’ devices if they chose to share their contacts with us.
-              </li>
-              <li>
-                <strong>Dial App may also process inferences about your account and device identifier</strong>, such as:
-                <ul className="ml-8 list-inside list-disc">
-                  <li>Inferred gender &#8211; for example, inferred from your name;</li>
-                  <li>
-                    Inferred interests &#8211; inferred from the links you visited and your activity in communities and channels – as long as you permitted so;
-                  </li>
-                  <li>
-                    Inferences from third party data and ads-related interactions &#8211; we may receive inferred data, linked to your device identifier
-                    (mainly, a unique device identifier generated by cookies or other tracking technologies used on our website and Services) from our trusted
-                    third-party advertisers and service providers. Such inferred data we receive may include inferences about your interests and
-                    characteristics, generated by such third parties from other websites and services you have visited (for example whether you are interested
-                    in fintech, cars etc., which income group you might pertain to, as well as the locations you tend to visit, based on your GPS location). In
-                    addition, inferences can be generated from data on how you interact with ads displayed on our App after clicking on them and data about your
-                    activity and preferences derived from the clicks on our own ads (and the subsequent installs of our App) associated with your device
-                    identifier, delivered on third party&#8217;s advertising platforms by our trusted third parties.
-                  </li>
-                </ul>
-              </li>
-            </ul>
-            <h6 className="my-4 text-blue-600">Data we collect from your communications with us, including support, customer services and other inquiries:</h6>
-            <p>
-              If you choose to contact us through any means of communications we make available, you may provide us with certain information such as your
-              contact details (e.g., name, email, phone number, mobile carrier, country – mainly where you are not a user of our Services) and other information
-              you voluntarily wish to provide (mainly, related to the issue you wish us to address or resolve). We will further store our contact history and
-              correspondence with you.
-            </p>
-            <h6 className="my-4 text-blue-600">Non users&#8217; data:</h6>
-            <p>
-              Mobile phone number and contact name, as saved on a Dial App user&#8217;s phone address book: we may process your mobile phone number even if you
-              are not a Dial App user, in the event that your phone number was included in our existing user’s address book that has been provided to us (and
-              subject to such user providing us with approval to access the device address book). We will also save the name it was saved under by our user. We
-              do it to show our user who in their contacts is already using our Services and who is not, to allow users find and communicate with their contacts
-              who are users or who are not users in a more efficient way, and solely for as long as a relevant Dial App user’s account exists on Dial App. In
-              the event you will become an active user, the existing users whose phone book included your number, will be notified that you have joined the
-              Service and you will be automatically added to their App&#8217;s contact list.
-            </p>
-            <h6 className="my-4 text-blue-600">Business partners data:</h6>
-            <p>
-              When you communicate with us for business purposes as a business partner of ours, we will save your contact data provided by you (names, phone
-              number, email, address etc.), as well as any correspondence we have had. We use trusted third-party providers to manage the maintenance and
-              storage of such data.
-            </p>
-            <p className="my-4 text-blue-600">
-              <a href="#top">Back to top</a>
-
-              <br />
-              <a id="how-we-use-data"></a>
-            </p>
-          </div>
-
-          <div className="mt-8 text-left text-base text-gray-800">
-            <h6 className="mb-4 font-bold text-blue-600">How We Use Your Data</h6>
-            At Dial App, we use your personal data to provide you with the best possible Service. This includes administering your account, customizing and
-            improving the Service we offer, processing payments, serving ads and marketing campaigns, providing you with support and for compliance and safety
-            reasons. We explain below the purposes for which we collect and use your personal data, as well as the types of data we use for each purpose.
+            <b>Collection of Information: </b>We collect various information from You when You access or visit the Platform, register or set up an Account on
+            the Platform or use the Platform. You may browse certain sections of the Platform and the Content, without registering an Account on the Platform.
+            However, to avail certain Services on the Platform, You are required to set up an Account on the Platform. This Privacy Policy applies to
+            information(s), as mentioned below and collected about You: <br />
             <br />
+            <div className="ml-4">
+              a: Personal Information: You may provide certain information to Us voluntarily while registering on the Platform for availing Services including
+              but not limited to Your complete name, mobile number, email address, date of birth, gender, age, address details, proof of identity such as
+              Permanent Account Number (PAN), passport, driving license, the voter's identity card issued by the Election Commission of India, or any other
+              document recognized by the Government for identification, and any other information voluntarily provided through the Platform (“Personal
+              Information”). The act of providing Your Personal Information is voluntary in nature and We hereby agree and acknowledge that We will collect,
+              use, store, transfer, deal with and share such details in compliance with applicable laws and this Privacy Policy. <br />
+              b: Sensitive Personal Information: For the purpose of this Privacy Policy, Sensitive Personal Information consists of information relating to the
+              following: <br />
+              <div className="ml-8">
+                {' '}
+                i: passwords; <br /> ii: financial information such as bank account or credit card or debit card or other payment instrument details;
+                <br /> iii: physical, physiological and mental health condition; <br /> iv: sexual orientation; <br /> v: medical records and history; <br />
+                vi: biometric information; <br />
+                vii: any details relating to the above as provided to a body corporate for providing services; and <br />
+                viii: any details relating to the above, received by a body corporate for processing, stored or processed under lawful contract or otherwise.{' '}
+                <br />
+                ix: any other information that may be regarded as Sensitive Personal Information as per the prevailing law for the time being in force. Provided
+                that, any information that is freely available or accessible in public domain or furnished under the Right to Information Act, 2005 or any other
+                law for the time being in force shall not be regarded as Sensitive Personal Information. You may be asked for the payment details to process
+                payments for the Services. You may also be asked to provide certain additional information about Yourself on a case to case basis. <br />
+              </div>{' '}
+              c: Transactional Information: If You choose to avail the Services through the Platform, We will also collect and store information about Your
+              transactions including transaction status, order history, number of transactions, details and Your behaviour or preferences on the Platform. All
+              transactional information gathered by Us shall be stored on servers, log files and any other storage system owned by any of Us or by third
+              parties. <br /> d: Location based information: When and if You download and/or use the Platform through Your mobile, tablet, and/or any other
+              computer sources or electronic devices, We may receive information about Your location, Your IP address, including a unique identifier number for
+              Your device. The informationYou provide may be used to provide You with location-based Services including but not limited to search results and
+              other personalized content. If You permit the Platform to access Your location through the permission system used by Your device operating system,
+              the precise location of Your device when the Platform is running in the foreground or background may be collected. You can withdraw Your consent
+              at any time by disabling the location tracking functions on Your device. However, this may affect Your experience of certain functionalities on
+              the Platform. In addition to the above, Your IP address is identified and used to also help diagnose problems with Our server, resolve such
+              problems and administer the Platform. Your IP address is also used to help identify You and to gather broad demographic information. The primary
+              goal in doing so is to provide You a safe, efficient, smooth, and customized experience on the Platform. The information collected allows Us to
+              provide the Services and/or features on the Platform that most likely meet Your needs, and to customize the Platform to make Your experience safer
+              and easier. More importantly, while doing so, We collect the above - mentioned Personal Information from You that We consider necessary for
+              achieving this purpose. We may also collect certain non-personal information, such as Your internet protocol address, web request, operating
+              system, browser type, other browsing information (connection, speed, connection type etc.), device type, the device's telephone number, URL,
+              internet service provider, aggregate user data, software and hardware attributes, the URL of the previous website visited by You, list of
+              third-party applications being used by You, pages You request, and cookie information, etc. which will not identify with You specifically, the
+              activities conducted by You (“Non - Personal Information”), while You browse, access or use the Platform. We receive and store Non-Personal
+              Information by the use of data collection devices such as “cookies” on certain pages of the Platform for various purposes, including
+              authenticating Users, store information (including on Your device or in Your browser cache) about Your use of our Services, remembering User
+              preferences and settings, determining the relevancy of content, delivering and measuring the promotional effectiveness, and promote trust and
+              safety, analyzing site traffic and trends, and generally understanding the online behaviors and interests of people. Certain additional features
+              may be offered on the Platform that are only available through use of a “cookie”. We place both permanent and temporary cookies in Your device. We
+              may also use cookies from third party partners for marketing and analytics purposes. You are always free to decline such cookies if Your browser
+              permits, although in that case, You may not be able to use certain features or Services being provided on the Platform. In general, You can browse
+              the Platform without telling Us who You are or revealing any Personal Information about Yourself. In such a case, We will only collect and store
+              the Non -Personal Information. Once You give us Your Personal Information, You are not anonymous to Us. Wherever possible, while providing the
+              information to Us, We indicate which fields are mandatory and which fields are optional for You. You always have the option to not provide the
+              Personal Information to Us through the Platform by choosing to not use a particular Service or feature being provided on the Platform, which
+              requires You to provide such information. We may automatically track certain information about You based upon Your behaviour on the Platform. We
+              use this information to do internal research on Your demographics, interests, and behaviour to better understand, protect and prove service to
+              You. This information is compiled and analyzed by Us on an aggregated basis and not individually, in a manner that does not specifically identify
+              You. If You choose to post messages on the Platform’s message boards, chat rooms or other message areas or leave feedback, We will collect and
+              store such information You provide to Us. We retain this information as necessary to resolve disputes, provide customer support, respond to
+              queries, and inquiries, and troubleshoot problems and improve the Services. If You send us correspondence, such as emails or letters, or if other
+              users or third parties send us correspondence about Your activities or postings on the Platform, We may collect and retain such information into a
+              file specific to You for responding to Your request and addressing concerns in relation to Your use of the Platform. We shall be entitled to
+              retain Your Personal Information and other information for such duration as may be required for the purposes specified hereunder and will be used
+              only in accordance with this Privacy Policy.
+            </div>
             <br />
-            You can find here information regarding the purposes for which we collect and use your personal data.
+            <b>Use of information: </b> We use the information, for the following:
             <br />
+            <div className="ml-4">
+              a: to provide and improve the Services on the Platform that you Request; <br /> b: for internal business purposes and services, including without
+              limitation, warehousing services, delivery services, IT support services, and data analysis services; <br /> c: to resolve disputes, administer
+              our service and diagnose/troubleshoot technical problems; <br /> d: to help promote a safe service on the Platform and protect the security and
+              integrity of the Platform, the Services and the users; <br /> e: to design and improve the products and Services and customer relationship
+              management processes; <br /> f: to collect money from You in relation to the Services, <br /> g: to inform You about online and offline offers,
+              product, services and updates; <br /> h: to customize Your experience on the platform or shake marketing material with You; <br /> i: to detect,
+              prevent and protect Us from any errors, fraud and other criminal or prohibited activity on the Platform; <br /> j: to enforce and inform about Our
+              Terms; <br /> k: to process and fulfill Your request for Services or respond to Your comments, and queries on the Platform; <br /> l: to contact
+              You through email, SMS, WhatsApp, telephone and any other mode of communication in relation to the Services; <br /> m: to allow Our service
+              providers, business partners and/or associates to present customized messages to You; <br /> n: to communicate important notices or changes in the
+              Services, use of the Platform and the Terms/policies which govern the relationship between You and the Company and/or zing, as applicable; <br />{' '}
+              o: to conform to the legal requirements, compliance/reporting to regulatory authorities, as may be required and to comply with applicable laws;{' '}
+              <br /> p: to carry out Our obligations and enforce Our rights arising from any contract entered into between You and Us; and <br /> q: to carry
+              out research with relevant partners. <br /> r: for any other purpose after obtaining Your consent at the time of collection. (collectively
+              “Purposes”). The Company and/or zing may occasionally ask You to complete optional online surveys. These surveys may ask You for Your contact
+              information and demographic information (like pin code, or age). We use this information to tailor Your experience on the Platform, providing You
+              with content that We think You might be interested in and to display content according to Your preferences. We use Your information to send You
+              promotional emails, however, We will provide You the ability to opt-out of receiving such emails from Us. However, You will not be able to opt-out
+              of receiving administrative messages, customer service responses or other transactional communications. We will not share Your Personal
+              Information with another user of the Platform and vice versa without Your express consent. <br />
+            </div>
+            3: Sharing of Information <br />
+            <div className="ml-4">
+              a: Third Party Service Provide <br />
+              rs: We may disclose Your Personal Information to third party vendors, delivery partners, consultants, partners for carrying out research and other
+              service providers who work for either of Us or provide Services through the Platform and are bound by contractual obligations to keep such
+              Personal Information confidential and use it only for the purposes for which We disclose it to them and maintain the same level of data protection
+              that is adhered to by Us. This disclosure may be required, for instance, to provide You access to the Services and process payments including
+              validation of Your Payment Details, to facilitate and assist marketing and advertising activities/initiatives, for undertaking auditing or data
+              analysis, or to prevent, detect, mitigate, and investigate fraudulent or illegal activities related to the Services. You expressly consent to the
+              sharing of Your information with third party service providers, including payment gateways, to process payments and manage Your payment-related
+              information. We do not disclose Your Personal Information to third parties for their marketing and advertising purposes without Your explicit
+              consent. <br /> b: Compliance with l <br />
+              aw: We may disclose Your information including Personal Information, to the extent necessa <br />
+              ry: (a) to comply with laws, regulatory requirements and to respond to lawful requests and legal process or an investigation, (b) to protect Our
+              rights and property, the users, and others, including to enforce the Terms or to prevent any illegal or unlawful activities, and (c) in an
+              emergency to protect Our personal safety and assets the users, or any person. In all such events We shall in no manner be responsible for
+              informing You or seeking Your approval or consent. We may also share aggregated anonymized (and de-identified) information with third parties at
+              Our discretion. <br /> c: Acquisition Sale or Merg <br />
+              er: We may, in compliance with applicable laws, share all of Your Personal Information (including SensitivePersonal Information) and other
+              information with any other business entity(ies), in the event of a merger, sale, reorganisation, amalgamation, joint ventures, assignment,
+              restructuring of business or transfer or disposition of all or any portion of any of Us. <br /> d: Sharing of information with third party for
+              operation of the Platfo <br />
+              rm: In the event the license agreement is terminated or the territory of the license is modified or limited in any manner, We may share any or all
+              Your Personal Information (including Sensitive Personal Information, if any) and Non-Personal Information with the incoming licensee continuity of
+              smooth operation of the Platform and seamless user experience. <br /> e: Sharing of information with any member of Our Group or affiliated
+              entities, third parties and transfer outside Ind <br />
+              ia: Subject to applicable law, we may at Our sole discretion, share Personal Information (including Sensitive Personal Information) to Our Group
+              or affiliated entities, any third party that ensures at least the same level of data protection as is provided by Us under the terms hereof,
+              located in India or any other country. By using the Platform, You accept the terms hereof and hereby consent to Us, sharing of Your Personal
+              Information and Sensitive Personal Information to Our Group or affiliated entities, third parties, including in any location outsideIndia,
+              provided that they ensure that Your Personal Information and Sensitive Personal Information is protected in compliance with standards that are
+              comparable to the standards of protection afforded to it in India. For the purpose of this clause the term “Group” shall mean, with respect to any
+              person, any entity that is controlled by such person, or any entity that controls such person, or any entity that is under common control with
+              such person, whether directly or indirectly, including any Relative or Related Party (as such term defined in the Companies Act, 2013 to the
+              extent applicable) of such person, holding, subsidiary Companies, etc. You also specifically agree and consent to Us collecting, storing,
+              processing, transferring, and sharing information (including Personal Information and Sensitive Personal Information)related to You with third
+              parties such as with entities registered under applicable laws including payment gateways and aggregators, solely for Us to provide Services to
+              You including processing Your transaction requests for theServices or to improve Your experience on the Platform. <br />
+            </div>
+            4: Security Precautions and Measures: The Platform has reasonable security measures and safeguards in place to protect Your privacy and Personal
+            Information from loss, misuse, unauthorized access, disclosure, destruction, and alteration, in compliance with applicable laws. Further, whenever
+            You change or access Your Account on the Platform or any information relating to it, the use of a secure server is offered. It is further clarified
+            that You have and so long as You access and/or use the Platform (directly or indirectly) the obligation to ensure that You shall at all times take
+            adequate physical, managerial, and technical safeguards, at Your end, to preserve the integrity and security of Your data which shall include and
+            not be limited to Your Personal Information. You will be responsible for maintaining the confidentiality of the Account information and are fully
+            responsible for all activities that occur under Your Account. You agree to (a)immediately notify Us of any unauthorized use of Your Account
+            information or any other breach of security, and (b) ensure that You exit from Your Account at the end of each session. We cannot and will not be
+            liable for any loss or damage arising from Your failure to comply with this provision. You may be held liable for losses incurred by any of Us or
+            any other user of or visitor to thePlatform due to authorized or unauthorized use of Your Account as a result of Your failure in keeping Your
+            Account information secure and confidential. When payment information is being transmitted on or through the Platform, it will be protected by
+            encryption technology. Hence, we cannot guarantee that transmissions of Your payment-related information or Personal Information will always be
+            secure or that unauthorized third parties will never be able to defeat the security measures taken by Us or Our third-party service providers. We
+            assume no liability or responsibility for disclosure of Your information due to errors in transmission, unauthorized third-party access, or other
+            causes beyond Our control. You play an important role in keeping Your Personal Information secure. You shall not share Your Personal Information or
+            other security information for Your Account with anyone. We have undertaken reasonable measures to protect Your rights of privacy with respect to
+            Your usage of thePlatform and the Services. However, We shall not be liable for any unauthorized or unlawful disclosures of Your Personal
+            Information made by any third parties who are not subject to Our control. Notwithstanding anything contained in this Privacy Policy or elsewhere, We
+            shall not be held responsible for: <br /> a: any security breaches on third-party websites or applications or for any actions of third-parties that
+            receive Your PersonalInformation; or <br /> b: any loss, damage or misuse of Your Personal Information, if such loss, damage or misuse is
+            attributable to a Force Majeure Event. For the purpose of this Privacy Policy, a “Force Majeure Event” shall mean any event that is beyond Our
+            reasonable control and shall include, acts of God, fires, explosions, wars or other hostilities, insurrections, revolutions, strikes, labour unrest,
+            earthquakes, floods, pandemic, epidemics or regulatory or quarantine restrictions, unforeseeable governmental restrictions or controls or a failure
+            by a third party hosting provider or internet service provider or on account of any change or defect in the software and/or hardware of Your
+            computer system. <br /> <br />
+            5: Retention of Your Personal Information: We maintain records of Your Personal Information only till such time it is required for the Purposes, or
+            for as long as required by applicable law. When You request us to delete Your information, we will honour the said request, but we may retain
+            certain information about you for the purposes authorized under thisPrivacy Policy unless prohibited by law. <br />
             <br />
-            <h6 className="mb-4 text-blue-600">Authentication and Account Administration:</h6>
-            Dial App uses different types of your personal data to create and administrate your Dial App account in order to enable you to register, log in,
-            activate and use the Services. This includes, for example:
-            <ul className="my-4 ml-4 list-inside list-disc">
-              <li>To authenticate and verify your account, as well as to make sure you do not already have a Dial App account;</li>
-              <li>
-                To synchronize your contact list on the App (meaning, in order to show you your contacts on the Dial App interface so you contact them through
-                Dial App);
-              </li>
-              <li>
-                To create your profile, customize your Dial App account according to the information you have provided (i.e., name, photo, etc. including where
-                you sign in through your social media account), and display such information as part of your profile when you use Dial App Services.
-              </li>
-            </ul>
-            The types of data we will use for such purpose will mainly include (as detailed in the &#8220;
-            <span>
-              <strong>
-                <a href="#data-we-collect">
-                  <span>
-                    <b>
-                      <span>Data We Collect</span>
-                    </b>
-                  </span>
-                </a>
-              </strong>
-            </span>
-            &#8221; section above):
-            <ul className="my-4 ml-4 list-inside list-disc">
-              <li>
-                Data provided or collected through registration &amp; under your Dial App account, such as Identifiers, your photo and phone address book;
-              </li>
-              <li>General location;</li>
-              <li>Data we collect automatically from your device, such as device identifiers and other device data;</li>
-              <li>Data collected from other sources such as social media data and your contact name, as saved on other users&#8217; device.</li>
-            </ul>
-            <h6 className="mb-4 text-blue-600">
-              Provide our Services – Communication & Content Features (messaging, voice and video calls, group chats, communities, channels, bots, chat
-              extensions, explore screen, stickers, Dial App lenses, etc.), and enabling backups:
-            </h6>
-            Dial App uses different types of personal data in order to operate, provide and deliver to you our Services, including communication features. This
-            includes, for example:
-            <ul className="my-4 ml-4 list-inside list-disc">
-              <li>To allow mobile carriers to connect calls to you and from you;</li>
-              <li>To show your online status;</li>
-              <li>To enable you to send messages, participate in Dial App calls, delete messages, etc.;</li>
-              <li>To provide you with other App&#8217;s features such as operational notifications (e.g., missed calls);</li>
-              <li>
-                We will use your IP address to extract your approximate location, in order to enable you to use certain features that are only available in
-                certain countries (for example, sticker packs);
-              </li>
-              <li>Enable you to upload and create backups of your messages on external services;</li>
-              <li>
-                Enable you to post and share your User Submitted Content (e.g., images and videos, etc.) on our communities, channels, and bots, where allowed
-                by its administrator, and generally utilize our content features;
-              </li>
-              <li>
-                Send you operational related and service-related communications, including administrative messages that relate to your use of the Services;
-              </li>
-              <li>Subject to the permission you provide, enabling you to share your location with your contacts.</li>
-            </ul>
-            The types of data we will use for such purpose will mainly include (as detailed in the &#8220;
-            <span>
-              <strong>
-                <a href="#data-we-collect">
-                  <span>
-                    <b>
-                      <span>Data We Collect</span>
-                    </b>
-                  </span>
-                </a>
-              </strong>
-            </span>
-            &#8221; section above):
-            <ul className="my-4 ml-4 list-inside list-disc">
-              <li>Data provided or collected through registration &amp; under your Dial App account, such as Identifiers, your phone address book;</li>
-              <li>Geolocation data;</li>
-              <li>
-                Data we collect automatically from your device, such as device identifiers, electronic network activity data, activity data and other device
-                data;
-              </li>
-              <li>Data we collect from other sources, such as social media data;</li>
-              <li>User Submitted Content.</li>
-            </ul>
-            As stated above, your messages will not be stored by us once they have been delivered.
-            <h6 className="my-4 text-blue-600">Improving and Customizing the Service and Analytics of Dial App Activity:</h6>
-            Dial App uses different types of personal data in order to improve, enhance and evaluate the Services, as well as customize the Services. This may
-            include, for example:
-            <ul className="my-4 ml-4 list-inside list-disc">
-              <li>
-                We use activity data, and device identifiers to fix and evaluate the technical functionality and availability of the Services, as well as for
-                statistical analysis of the usage and functionality, product development, continued improvement of existing features and provision of certain
-                features;
-              </li>
-              <li>
-                We use your data provided through registration and inferred data (such as inferred gender, and inferences from ads related interactions),
-                interests and general location to customize content we show you, including customized our offers of certain services;
-              </li>
-              <li>
-                When we advertise our Services to you on third party platforms, we might receive indications of which advertisement led you to join our Service
-                based on unique device identifiers associated with your device, in order, among others, to assess the performance of our campaigns, to look for
-                similar users, for better ad measurements, as well as to learn more about your activity and preferences on our Services.
-              </li>
-            </ul>
-            The types of data we will use for such purpose will mainly include (as detailed in the &#8220;
-            <span>
-              <strong>
-                <a href="#data-we-collect">
-                  <span>
-                    <b>
-                      <span>Data We Collect</span>
-                    </b>
-                  </span>
-                </a>
-              </strong>
-            </span>
-            &#8221; section above):
-            <ul className="my-4 ml-4 list-inside list-disc">
-              <li>Data provided or collected through registration &amp; under your Dial App account, such as Identifiers and your interests;</li>
-              <li>General location;</li>
-              <li>
-                Data we collect automatically from your device, e.g., data collected using cookies and other device identifying technologies, such as device
-                identifiers, electronic network activity data, activity data and other device data;
-              </li>
-              <li>
-                Data we collect from other sources and inferred data, such as social media data, your contact name and inferences about your account and device
-                identifiers.
-              </li>
-            </ul>
-            <h6 className="my-4 text-blue-600">Marketing Communications with Dial App’s Users & Location based Offers:</h6>
-            Dial App uses different types of personal data in order to contact you with marketing and offers relating to products offered by the Dial App
-            Services, and our third party trusted partners, in line with applicable laws. This may include, for example:
-            <ul className="my-4 ml-4 list-inside list-disc">
-              <li>
-                We will use your email address, name and inferred gender or age range, for the purpose contacting you with marketing and offers relating to
-                products offered by Dial App, and our third party trusted partners;
-              </li>
-              <li>Your IP address will be used to extract your general location, for the purposes of presenting offers applicable to your region;</li>
-              <li>
-                Subject to the permissions you have provided, we will use you GPS location data for the purpose of providing you with location-based marketing
-                offers and communications.
-              </li>
-            </ul>
-            Please note that even after you have chosen to unsubscribe (see how you can do it in “
-            <span>
-              <strong>
-                <a href="#your-choices-and-controls">
-                  <span>
-                    <b>
-                      <span>Your Choices</span>
-                    </b>
-                  </span>
-                </a>
-              </strong>
-            </span>
-            ” section), we may send you service-related communications, including administrative messages that relate to your use of the Services.
-            <br />
-            <br />
-            The types of data we will use for such purpose will mainly include (as detailed in the &#8220;
-            <span>
-              <strong>
-                <a href="#data-we-collect">
-                  <span>
-                    <b>
-                      <span>Data We Collect</span>
-                    </b>
-                  </span>
-                </a>
-              </strong>
-            </span>
-            &#8221; section above):
-            <ul className="my-4 ml-4 list-inside list-disc">
-              <li>Data provided or collected through registration &amp; under your Dial App account, such as Identifiers and your Interests;</li>
-              <li>Geolocation data;</li>
-              <li>
-                Data we collect automatically from your device, such as device identifiers, electronic network activity data, activity data and other device
-                data;
-              </li>
-              <li>Data we collect from other sources and inferred data, such as social media data and inferences about your account and device identifier.</li>
-            </ul>
-            <h6 className="my-4 text-blue-600">Advertising:</h6>
-            Dial App uses different types of personal data in order to provide our advertising services (meaning, to enable the display of advertisements,
-            including personalized advertisements provided by third party advertisers, in our App and Services), to measure and optimize the performance of ads
-            and deliver more relevant ads. This may include, for example:
-            <ul className="my-4 ml-4 list-inside list-disc">
-              <li>
-                Dial App may share your device identifier (mainly, a unique device identifier generated by cookies or other tracking technologies used on our
-                website and Services), as well as age range, inferred gender, and reduced IP address (or GPS location data if you allowed us in your settings)
-                with third party advertising partners for the purpose of presenting you with personalized ads;
-              </li>
-              <li>
-                Dial App may collect and use data about links you visit through any of your messages and data about the communities and channels you have
-                visited or follow, messages you have liked, messages you have sent and the content you have viewed, for the purpose of personalized advertising.
-              </li>
-            </ul>
-            <br />
-            <br />
-            The types of data we will use for such purpose will mainly include (as detailed in the &#8220;
-            <span>
-              <strong>
-                <a href="#data-we-collect">
-                  <span>
-                    <b>
-                      <span>Data We Collect</span>
-                    </b>
-                  </span>
-                </a>
-              </strong>
-            </span>
-            &#8221; section above):
-            <ul className="my-4 ml-4 list-inside list-disc">
-              <li>Data provided or collected through registration &amp; under your Dial App account, such as your interests;</li>
-              <li>Geolocation data;</li>
-              <li>Data we collect automatically from your device, such as device identifiers, activity data, and other device data;</li>
-              <li>Data we collect from other sources and inferred data, such as social media data and inferences about your account and device identifier.</li>
-            </ul>
-            <h6 className="my-4 text-blue-600">Customer Service:</h6>
-            Dial App uses different types of personal data in order to provide customer service and customer support. This may include, for example:
-            <ul className="my-4 ml-4 list-inside list-disc">
-              <li>We will use your contact details to communicate with you, give you information about your account, and respond to your requests;</li>
-              <li>
-                We may use your contact history and correspondence with usfor the purpose of improving our Services, training our support team as well as
-                internal management operation.
-              </li>
-            </ul>
-            The types of data we will use for such purpose will mainly include (as detailed in the &#8220;
-            <span>
-              <strong>
-                <a href="#data-we-collect">
-                  <span>
-                    <b>
-                      <span>Data We Collect</span>
-                    </b>
-                  </span>
-                </a>
-              </strong>
-            </span>
-            &#8221; section above):
-            <ul className="my-4 ml-4 list-inside list-disc">
-              <li>Data provided or collected through registration &amp; under your Dial App account, such as Identifiers and your phone address book;</li>
-              <li>Geolocation data;</li>
-              <li>
-                Financial information provided or collected through your use of our limited financial services (e.g., payment solutions), or purchased
-                subscription and offer;
-              </li>
-              <li>
-                Data we collect automatically from your device, such as device identifiers, electronic network activity data, activity data and other device
-                data;
-              </li>
-              <li>Data we collect from other sources and inferred data, such as social media data;</li>
-              <li>Data we collect from your communications with us, including support, customer services and other inquiries.</li>
-            </ul>
-            <h6 className="my-4 text-blue-600">Safety, Security & Fraud Prevention:</h6>
-            Dial App uses different types of personal data for security purposes such as fraud and spam prevention. This may include, for example:
-            <ul className="my-4 ml-4 list-inside list-disc">
-              <li>
-                We will collect and examine URLs included in messages or messages, which were reported by other users, or were otherwise suspected to be
-                unsolicited and using your device operating system authentication services;
-              </li>
-              <li>
-                We may use automated decisions to close an account based on such data and other logic we have created for this, in order to protect other users
-                and prevent recurring breaches. If your account has been blocked, you can contact our support.
-              </li>
-            </ul>
-            The types of data we will use for such purpose will mainly include (as detailed in the &#8220;
-            <span>
-              <strong>
-                <a href="#data-we-collect">
-                  <span>
-                    <b>
-                      <span>Data We Collect</span>
-                    </b>
-                  </span>
-                </a>
-              </strong>
-            </span>
-            &#8221; section above):
-            <ul className="my-4 ml-4 list-inside list-disc">
-              <li>Data provided or collected through registration &amp; under your Dial App account, such as Identifiers;</li>
-              <li>Geolocation data;</li>
-              <li>
-                Financial information provided or collected through your use of our limited financial services (e.g., payment solutions), or purchased
-                subscription and offers;
-              </li>
-              <li>
-                Data we collect automatically from your device, such as device identifiers, electronic network activity data, activity data and other device
-                data<strong>.</strong>
-              </li>
-            </ul>
-            <h6 className="my-4 text-blue-600">B2B Communications and Engagements: Provide Service to Existing Users:</h6>
-            We will use Business Partners Data (as detailed in the{' '}
-            <b>
-              <a href="#data-we-collect">“Data We Collect” </a>{' '}
-            </b>
-            section above) for the purpose of communicating with you, or as otherwise needed to facilitate our engagement, as well as to send you our marketing
-            offers. You have the ability to opt out of our direct marketing emails at any time (see how you can do it in{' '}
-            <b>
-              <a href="#your-choices-and-controls">“Your Choices”</a>
-            </b>{' '}
-            section).
-            <h6 className="my-4 text-blue-600">Provide Service to Existing Users:</h6>
-            We will store and use Non-User Data (as detailed in the{' '}
-            <b>
-              <a href="#data-we-collect">“Data We Collect”</a>{' '}
-            </b>
-            section above) which includes non-Dial App users’ phone number (and names under which they were saved by Dial App users) in the event such contact
-            was included in our user’s address book that has been provided to us, and for the purpose of showing our user who in their contacts is already using
-            our Services and who is not, to allow the user find and communicate with their contacts who are users in a more efficient way. If you are not a Dial
-            App user and would like to be excluded from such processing, please contact us at <b>plugapp2022@gmail.com</b>
-            <h6 className="my-4 text-blue-600">Defend our Rights, Enforce our Policies & Compliance with Legal Obligations and Public Interests:</h6>
-            Dial App may use and share different types of personal data, and depending on the circumstances, for the purpose of defending our rights and
-            enforcing our polices, terms and agreements, where it is necessary to comply with legal obligations to which we are subject to and cooperation with
-            regulators and law enforcement bodies (where there is a valid legal request such as binding order), as well as in very limited and rare
-            circumstances, where we find it necessary and essential for the purpose of protecting your or third party’s life safety and security as well as
-            humanitarian purposes. This may include, for example:
-            <ul className="my-4 ml-4 list-inside list-disc">
-              <li>In the event of a dispute, claims and legal proceedings, and solely to the extent necessary for such purpose;</li>
-              <li>We may record and log some of your actions, such as acceptance of our terms and polices, acceptance of certain offers, etc.;</li>
-              <li>
-                We will store an indication of your request to exercise your rights related to your personal data in order to be able to demonstrate compliance;
-              </li>
-              <li>We may store telecommunication data in accordance with local laws;</li>
-              <li>
-                We may be required to provide authorities with information in compliance with criminal investigations laws applicable to electronic
-                communications provider or otherwise applicable to us.
-              </li>
-            </ul>
-            <p className="my-4 text-blue-600">
-              <a href="#top">Back to top</a>
-
-              <br />
-              <a id="what-other-users-see"></a>
-            </p>
-          </div>
-          <div className="mt-8 text-left text-base text-gray-800">
-            <h6 className="mb-4 font-bold text-blue-600">What Other Users Can See</h6>
-            When you use our Services, other Dial App users can see certain data about you, for example, the fact that you are a Dial App user or a user of
-            certain Dial App Services, the content you voluntarily share, your profile information (subject to your settings), your connection status, etc., as
-            we detail and explain below.
-            <br />
-            <br />
-            Other users can see on Dial App the following data about you:
-            <ul className="my-4 ml-4 list-inside list-disc">
-              <li>
-                Unless you have changed your settings:
-                <ul className="my-4 ml-8 list-inside list-disc">
-                  <li>your user name and photo;</li>
-                  <li>your phone number (if you are in communication with them);</li>
-                  <li>your connection status;</li>
-                  <li>whether you have received and seen messages sent to you;</li>
-                </ul>
-              </li>
-              <li>If you are currently on another call.</li>
-              <li>
-                If they are part of the call with you, data related to the calls and messages you have sent and received such as length of the call, who called
-                who, who messaged who, and at what time, the type of call (audio/video) and whether you answered the call on your primary or another device.
-              </li>
-              <li>
-                For disappearing messages, we will notify the other users of any screenshots you’ve taken (so please respect the vibe and do not take them).
-              </li>
-              <li>
-                When you join Dial App, the contacts in your address book that are already Dial App members may be informed that you’re now on Dial App too.
-              </li>
-              <li>A reminder about your birthday on the date of your birthday.</li>
-              <li>
-                When you join Dial App Pay, the contacts in your address book that are already Dial App members may be informed that you’re now using Dial App
-                Pay. In addition, Dial App users will see an indication whether you are a Dial App Pay user.
-              </li>
-              <li>
-                If your “Use Peer-to-Peer” option is on, other users can use technical tools to see your IP address. You can turn this option off at any time on
-                your privacy settings.
-              </li>
-              <li>
-                <strong>Your public posts: </strong>if you post information on our public spaces such as communities or channels, it may be searchable and
-                available to anyone on Dial App. You can always delete your posts on those public spaces, but Dial App cannot control and is not responsible for
-                what other users do with this information (e.g., store on their devices, publish on Dial App or outside of it etc.), thus, we recommend you do
-                not disclose your personal data through the content of your posts.
-              </li>
-            </ul>
-            <p className="my-4 text-blue-600">
-              <a href="#top">Back to top</a>
-
-              <br />
-              <a id="data-sharing"></a>
-            </p>
-          </div>
-
-          <div className="mt-8 text-left text-base text-gray-800">
-            <h6 className="mb-4 font-bold text-blue-600">How We Share Your Personal Data</h6>
-            We share data with third parties, including our corporate family and with trusted companies that help us provide our Services in compliance with
-            strict data security and privacy practices, as well as other third parties such as our advertising partners, and third parties offering services
-            through our App. We may also share personal data in limited circumstances where we are required to do so under applicable law. You can find here
-            information about the categories of such third-party recipients, as well as the purpose for which the personal data is shared with such third
-            parties.
-            <br />
-            <br />
-            Your data is kept safe with us, but we do share your personal data with third parties we trust, solely as follows:
-            <br />
-            <br />
-            <h6 className="my-4 text-blue-600">The Dial App Corporate Family:</h6>
-            We may share the data we collect about you with the Dial App corporate family, including our parent company, Rakuten Group Inc., and its and our
-            affiliates and our subsidiaries, for the following purposes:
-            <ul className="ml-8 list-inside list-disc">
-              <li>
-                Certain types of data, such as name, personal email, avatar, phone numbers, Dial App unique ID, may be disclosed in order to provide joint
-                content and our Services (e.g., registration, coordination of membership accounts between the Dial App corporate family, transactions, analytics
-                and customer support);
-              </li>
-              <li>
-                Additionally, we may share certain types of data about you as may be necessary to help detect and prevent potentially illegal acts, violations
-                of Dial App policies, fraud and/or data security breaches;
-              </li>
-              <li>
-                We share data with Dial App&#8217;s subsidiaries due to our global operations, as we have teams and offices located worldwide, and each such
-                subsidiary may operate the services or other functions (such as development, etc.) for a certain region;
-              </li>
-              <li>
-                Further, we share data with our affiliated company, Rakuten Marketing LLC, as our service provider for our marketing and advertising activities.
-              </li>
-            </ul>
-            For users registering to Dial App from November 20, 2019 – details provided during your registration will be shared with Rakuten group to create the
-            Rakuten account and/or to link your Rakuten account with your Dial App account. In addition, the same will apply to users in Japan, who decided to
-            link their email to their Dial App account.
-            <h6 className="my-4 text-blue-600">Our Service Providers:</h6>
-            We share your personal data with our trusted service providers and business partners that perform business operations for us on our behalf (as data
-            processors) and pursuant to our instructions. This includes the following types of service providers:
-            <ul className="my-4 ml-8 list-inside list-disc">
-              <li>
-                <strong>Advertising and marketing service providers,</strong> who help us with advertising measurements and app installations;
-              </li>
-              <li>
-                <strong>Data storage providers, </strong>with whom we entrust the hosting and storage of our data;
-              </li>
-              <li>
-                <strong>Customer support providers</strong>, who help us perform such functions as customer support and customer service;
-              </li>
-              <li>
-                <strong>Data analytics and data management providers</strong>, who help us analyze, improve, personalize and enhance our Services;
-              </li>
-              <li>
-                <strong>Measurement partners</strong>, who help us with measurements, tracking and targeting;
-              </li>
-
-              <li>
-                <strong>Data security partners</strong>, who help us detect and prevent potentially illegal acts, violations of our policies, fraud and/or data
-                security breaches and ensure compliance with legal obligations.
-              </li>
-            </ul>
-            Where we share information with services providers and partners, we ensure they only have access to such information that is strictly necessary in
-            order for us to provide the Services. These parties are required to secure the data they receive and to use the data for pre-agreed purposes only,
-            while ensuring compliance with all applicable data protection regulations (such service providers may use other non-personal data for their own
-            benefit).
-            <h6 className="my-4 text-blue-600">Advertising Partners:</h6>
-            To enable the limited advertisements on our Services, we may share device identifiers (i.e., an advertising identifier associated with your device)
-            with our third-party advertising partners, along with certain of your device data (e.g. language preference), age range, inferred gender, country,
-            city, reduced IP address (or GPS location data if you allowed us in your settings) and certain technical or aggregated data about you and the device
-            you are using. This includes partners managing our advertising placements (Rakuten included) and also advertisers themselves and their agencies or
-            third parties managing their advertising demands. Your unique advertising identifier is created by your mobile device’s operating system and you can
-            change it or choose not to share it at any time.
-            <h6 className="my-4 text-blue-600">Legal and Law Enforcement:</h6>
-            Subject to our strict data security and privacy practices and without compromising our end-to-end encryption, we may disclose certain types of your
-            data, including, and depending on the circumstances, Activity Data, Identifiers and your phone address book, to law enforcement, governmental
-            agencies, or authorized third parties, in response to a verified request relating to terror acts, criminal investigations or alleged illegal
-            activity or any other activity that may expose us, you, or any other Dial App user to legal liability, and solely to the extent needed to comply
-            with such purpose.
-            <h6 className="my-4 text-blue-600">Corporate Transactions:</h6>
-            In the event of a corporate transaction (e.g., sale of a substantial part of our business, merger, consolidation or asset sale) we will share the
-            data we store with our acquiring company. We will obligate the acquiring company to assume the rights and obligations as described in this Privacy
-            Policy (including this notice), and we will notify you of such corporate changes in your data processing.
-            <h6 className="my-4 text-blue-600">Limited Payment Services:</h6>
-            If you use our Dial App Pay services, we will share with our third-party payment processor KYC related data such as your name, date of birth,
-            contact details, country, etc.
-            <br />
-            <br />
-            If you use our Dial App Chatbot Payment, we will share with Google Pay or Apple Pay or any other linked payments provider the following information:
-            (i) name of the payment service provider merchant; (ii) price of the items purchased and currency; and (iii) the description of the items purchased.
-            The confirmation of the payment is provided directly to the merchant and Dial App does not receive or share any payment data or registration data
-            from Apple Pay nor Google Pay. Note that, your use of Apple Pay and Google Pay, including their use of your data, is subject to their respective
-            terms and privacy policy.
-            <br />
-            <br />
-            If you use our Dial App Out Credit and subscriptions, we will share your email address with our payment processor, for the purpose of verification
-            and fraud detection.
-            <p className="my-4 text-blue-600">
-              <a href="#top">Back to top</a>
-
-              <br />
-              <a id="international-data-transfers"></a>
-            </p>
-          </div>
-
-          <div className="mt-8 text-left text-base text-gray-800">
-            <h6 className="mb-4 font-bold text-blue-600">International Data Transfers</h6>
-            Due to our global operations, your personal data will be shared with Dial App corporate family, as well as our service providers and business
-            partners around the world. We take measures to ensure the transfer of such data will provide sufficient safeguards. These measures include
-            compliance with Binding Corporate Rules of the Rakuten Group, as well as contractual commitments of our partners and service providers. We further
-            explain below why we transfer personal data, the measures we take to ensure your personal data will be secure upon transfer, and your rights in this
-            regard.
+            6: Links to Other Third–Party Sites and collection of information: The Platform may link You to other third-party Platforms (“Third-Party Sites”)
+            that may collect Your Personal Information including Your IP address, browser specification, or operating system. We are not in any manner
+            responsible for the security of such information or their privacy practices or content of those Third-Party Sites. Additionally, You may also
+            encounter “cookies” or other similar devices on certain pages of the Third-Party Sites and it is hereby clarified that the Platform does not control
+            the use of cookies by these Third-Party Sites. These third-party service providers and Third-Party Sites may have their own privacy policies
+            governing the storage and retention of Your information that You may be subject to. This Privacy Policy does not govern any information provided to,
+            stored on, or used by these third-party providers and Third-Party Sites. We recommend that when You enter a Third-Party Site, You review the
+            Third-Party Site’s privacy policy as it relates to safeguarding of Your information. We may use third-party advertising companies to serve ads when
+            You visit the Platform. These companies may use information (not includingYour name, address, email address, or telephone number) about Your visits
+            to the Platform and Third-Party Sites in order to provide advertisements about goods and services of interest to You. You agree and acknowledge that
+            We are not liable for the information published in search results or by any Third-Party Sites. <br /> <br /> 7: Public Posts: You may provide Your
+            feedback, reviews, testimonials, etc. on the Platform on Your use of the Services (“Posts”). Any content or PersonalInformation and Posts that You
+            share or upload on the publicly viewable portion of the Platform (on discussion boards, in messages and chat areas, etc.) will be publicly
+            available, and can be viewed by other users and any and all intellectual property rights in and to such Posts shall vest with Us. Your Posts shall
+            have to comply with the conditions relating to Posts as mentioned in the Terms. We shall retain an unconditional right to remove and delete any Post
+            or such part of the Post that, in Our opinion, does not comply with the conditions in the Terms or where applicable law requires us to remove such
+            Post. We reserve the right to use, reproduce and share Your Posts for any purpose. If You delete Your Posts from the Platform, copies of such Posts
+            may remain viewable in archived pages, or such Posts may have been copied or stored by other Users. <br /> <br /> 8: Your Consent, Rectification and
+            Changes to Privacy Policy: Your acknowledgement: All information disclosed by You shall be deemed to be disclosed willingly and without any
+            coercion. No liability pertaining to the authenticity / genuineness / misrepresentation / fraud / negligence of the information disclosed shall lie
+            on Us nor will We be in any way responsible to verify any information obtained from You. <br /> <br /> Withdrawal of consent: You may choose to
+            withdraw Your consent provided hereunder at any point in time. You may do the same by visiting Home page -Settings Icon- Profile on the mobile
+            application. In case You do not provide Your consent or later withdraw Your consent, We request You not to access thePlatform, Content or use the
+            Services. We also reserve the right to not provideYou any Services and/or Content on the Platform and/or features of the Platform once You withdraw
+            Your consent. In such a scenario, We will delete Your information (personal or otherwise)or de-identify it so that it is anonymous and not
+            attributable to You. In the event, We retain the Personal Information post withdrawal or cancellation of Your consent, it shall retain it only for
+            the period permitted under applicable laws. You should be aware that some of the Personal Information that may have been shared on third-party
+            websites may still continue to be available as we do not have control over these websites.Your Personal Information may also appear in online
+            searches. Other Personal Information that You have shared with others, or that other users have copied, may also remain visible. You should only
+            share Personal Information with people that You trust because they will be able to save it or re-share it with others, including when they sync the
+            Personal Information to a device.
             <br /> <br />
-            Due to our global nature, your personal data may need to be processed in countries where data protection and privacy regulations may not offer the
-            same level of protection as in your home country. Depending on the territory from which you use our Services, we may store and process all
-            categories of your personal data on our computers located globally, including in the United States, Asia, Europe, Russia, Australia and Brazil. In
-            addition, our communications servers are located globally in order to enable the operation of our communications servicesand we use service
-            providers that may be located in various locations.
+            Rectification of Your information: You may review, correct, update and change the information that You have provided to Us, at any point by making
+            changes on the mobile application Homepage -Settings Icon -Profile. Should You choose to update Your Personal Information or modify it in a way that
+            is not verifiable by Us, or leads to such information being incorrect, We will be unable to provide You with access to the Platform or the Services.
+            We reserve the right to verify and authenticate Your identity and Your Personal Information in order to ensure that We are able to offer You
+            Services and/or make available the Platform. We can only keep Your Personal Information up-to-date and accurate to the extent You provide us with
+            the necessary information. It is Your responsibility to notify Us of any changes in Your Personal Information. Access to or correction, updating or
+            deletion of Your Personal Information may be denied or limited by Us if it would violate another person’s rights and/or is not otherwise permitted
+            by applicable law.
             <br /> <br />
-            Transfers of your personal data will be made in accordance with applicable data protection laws, and among others, we have put in place appropriate
-            safeguards (such as contractual commitments) in accordance with applicable legal requirements to ensure that your personal data is adequately
-            protected.
+            Changes to Our Privacy Policy: We reserve the unconditional right to change, modify, add, or remove portions of this Privacy Policy at any time, and
+            shall provide a notice to You of such changes. Any changes or updates will be effective immediately. You should review this Privacy Policy regularly
+            for changes. You can determine if changes have been made by checking the “Last Updated” legend above. Your acceptance of the amended Privacy Policy
+            by continuing to visit the Platform or using theServices, shall signify Your consent to such changes and agreement to be legally bound by the same.{' '}
             <br /> <br />
-            Furthermore, as part of the Rakuten Group, Dial App relies on the Rakuten Group Binding Corporate Rules to legitimize international data transfers
-            within the Group. The Rakuten Group Binding Corporate Rules.
-            <br /> <br />
-            <p className="my-4 text-blue-600">
-              <a href="#top">Back to top</a>
-
-              <br />
-              <a id="data-retention"></a>
-            </p>
-          </div>
-          <div className="mt-8 text-left text-base text-gray-800">
-            <h6 className="mb-4 font-bold text-blue-600">Data Retention</h6>
-            As we have explained above, we process personal data for various purposes. Accordingly, we only keep personal data as long as required to fulfill
-            the purpose for which the data was collected, or, in some instance, where we have other necessities to retain the personal data, for example, where
-            required by law. We explain below the criteria used by us to determine the retention of your personal data (meaning, for how long we store it and
-            when we delete it, aligned with the type of data and purpose of collection).
-            <br />
-            <br />
-            The criteria used by us to determine Dial App’s retention periods are as follows:
-            <ul className="my-4 ml-8 list-inside list-disc">
-              <li>
-                The type of personal data and purpose of collection &#8211; unless otherwise specified, we retain data as long as it is necessary and relevant
-                for us to achieve the purposes for which the personal data was collected. For example:
-              </li>
-              <li>
-                Personal data required to be retained in order to maintain your Dial App account and to enable you the use of Dial App Services – these types of
-                data, including your mobile number, and phone address book, will be retained for as long as you maintain your Dial App account.
-              </li>
-              <li>
-                Personal data you have voluntarily provided during registration or through your account &#8211; these types of data, including your photo, date
-                of birth, email address and interests, will be retained for as long as you maintain your Dial App account.
-              </li>
-              <li>The details of your communication with our customer support team will be stored for 10 years.</li>
-              <li>
-                Call Detail Records (CDRs) of your calls and messaging activity are kept as a raw data for 24 months from creation. CDRs may include, for
-                example, your phone number and device identifiers (i.e., IP address, unique device identifier).
-              </li>
-              <li>We delete any message once delivered, or after 14 days if delivery attempts throughout this period was not successful.</li>
-            </ul>
-            If you decide to delete your Dial App account, the CDRs and communications with our customer support will be retained as detailed above, and we will
-            further retain records of purchases you have made (using Dial App Pay, purchasing subscriptions, etc.), for the periods required under applicable
-            laws, or as needed in accordance with our fraud monitoring program.
-            <br />
-            <br />
-            All other types of data related to your Dial App account will be deleted, unless we are required to further retain the data, subject to the criteria
-            detailed below. We may keep activity data on a non-identifiable basis to improve our Services. Your posts on channels and communities may remain
-            available if you do not delete them. Please note that deletion of the App (i.e., uninstall the App from your device) will not delete your account.
-            <ul className="my-4 ml-8 list-inside list-disc">
-              <li>
-                <strong>Compliance with our legal obligations – </strong>we are required to retain certain types of data in order to comply with our obligations
-                under applicable laws. For example, we need to retain transactions information to comply with tax legislation. In addition, we may retain
-                certain types of personal data in the event we are required to do so subject to a binding legal request or a court order. Further, subject to EU
-                Directive 2002/58/EC we are required to retain certain personal data (such as phone number) to convey messages and calls.
-              </li>
-              <li>
-                <strong>Dispute, claims and legal proceedings</strong> &#8211; if you have a dispute with us, we may retain certain types of personal data as
-                necessary and applicable to your claims, including any legal proceedings between us, until such dispute was resolved, and following, if we find
-                it necessary, in accordance with applicable statutory limitation periods. In addition<strong>, </strong>in the event you request to exercise
-                your rights, we will maintain the applicable correspondence for as long as needed to demonstrate compliance, and usually in accordance with
-                applicable statutory limitation periods.
-              </li>
-              <li>
-                <strong>Retention for Non users&#8217; data – </strong>If you are not a Dial App user, and we process your data to enable Dial App users to
-                communicate with you via Dial App Services we will retain such data as long as it is relevant to Dial App users, or until you have requested us
-                to stop processing your phone number. You can request to exclude your phone number (by contacting us at: <b>plugapp2022@gmail.com</b>
-                ). Furthermore, if one of our users used our Dial App Out Services in order to communicate with you (i.e., call you through Dial App), we will
-                retain a log of such call (Call Detail Records – CDR – as detailed above), which will include your phone number, for 24 months from creation.
-              </li>
-            </ul>
-            <p className="my-4 text-blue-600">
-              <a href="#top">Back to top</a>
-
-              <br />
-              <a id="your-choices-and-controls"></a>
-            </p>
-          </div>
-          <div className="mt-8 text-left text-base text-gray-800">
-            <h6 className="mb-4 font-bold text-blue-600">Your Choices & Controls</h6>
-            The personal data is yours – the choice is yours too on how to customize your Dial App experience. Dial App users enjoy certain choices and controls
-            related to their personal data. We explain below the controls and choices provided by Dial App and how you may exercise them, including deletion of
-            messages, privacy settings, the visibility of your online status, limit what other users can see, unsubscribe from marketing materials and opt-out
-            of certain personalization features.
-            <br />
-            <br />
-            Dial App provides you with certain choice and controls you may exercise, related to your personal data, as follows:
-            <ul className="my-4 ml-8 list-inside list-disc">
-              <li>
-                We enable you to delete or edit your messages anytime, even after they have been sent (they will be deleted or appear edited for you, your
-                friend and our Services).
-              </li>
-              <li>You can also control your privacy settings within the App to change the visibility of your online status.</li>
-              <li>You can disable the “seen” notification so that other users do not know whether you’ve read a message yet.</li>
-              <li>
-                You can choose not to share your photo and/or birthday or not to allow other users to look you up by name, which are available within the App.
-              </li>
-              <li>
-                You can also make additional choices on your phone’s settings by changing our App’s permissions such as GPS location sharing, access to contact
-                list and more.
-              </li>
-              <li>
-                If you do not wish to receive Dial App marketing notifications, you may adjust your system settings to decline notifications from Dial App, or
-                submit a request to our support. And if you subscribed to receive promotional emails from Dial App, you can unsubscribe in any such email at any
-                time.
-              </li>
-              <li>
-                Sending a message to a bot, subscribing to a bot will allow admins of that bot to send you notifications and personal messages. If you do not
-                wish to receive such notifications, you may adjust your account settings to decline them or opt-out at any time from receiving further
-                notifications. You may also adjust your phone preferences to disable the use of your GPS location data at any time.
-              </li>
-              <li>
-                You can choose to allow or to not allow customization and personalization of our Services provided to you based on your personal data, by
-                changing your personal data toggles in the privacy setting within the App.
-              </li>
-            </ul>
-            <p className="my-4 text-blue-600">
-              <a href="#top">Back to top</a>
-
-              <br />
-              <a id="your-rights"></a>
-            </p>
-          </div>
-          <div className="mt-8 text-left text-base text-gray-800">
-            <h6 className="mb-4 font-bold text-blue-600"> Your Rights Related to Your Personal Data</h6>
-            Subject to local law, you may have certain rights regarding the personal data that Dial App has collected about you. Such rights may include
-            (depending on your jurisdiction as well as the type of data and the purpose for which the data was collected or retained) the right to know which
-            types of data we collect and why we collect it (as we detail under this notice), the right to request rectification of your personal data, the right
-            to request us to delete your personal data, the right to opt-out of certain data collection, the right to access your personal data, the right to
-            withdraw your consent, as well as the right to lodge a complaint to a supervisory authority. We further explain below the operational meaning of
-            each such right, as well as when and how you may exercise your right.
-            <br />
-            <br />
-            Dial App respects your ability to exercise certain rights with regards to your personal data collected and stored. In some areas and jurisdictions,
-            such principal rights may include all or some of the following rights:
-            <ul className="my-4 ml-8 list-inside list-disc">
-              <li>
-                <strong>The right to be provided with information</strong> <strong>about our data collection and privacy practices</strong> &#8211; including
-                the sources from which we collect data, the purposes for which we collect and share data, the data we hold. This Privacy Policy describes our
-                practices in detail using simple language. Everything you need to know is here. If you have more questions, feel free to contact us at:{' '}
-                <b>plugapp2022@gmail.com</b>
-              </li>
-              <li>
-                <strong>The right to access your personal data &#8211; </strong>you may exercise your access right by using the{' '}
-                <strong>request your data button </strong>in Dial App’s privacy settings on your mobile device. If you have further questions contact us at{' '}
-                <b>plugapp2022@gmail.com</b>.
-              </li>
-              <li>
-                <strong>The right to request rectification the personal data we hold about you</strong> &#8211; if you believe we have the wrong data about you,
-                or that your data is incomplete, feel free to change your personal data at any time through the profile settings on your Dial App settings on
-                your mobile device. If you can’t find what you are looking for, contact us at:
-                <b>plugapp2022@gmail.com</b>.
-              </li>
-              <li>
-                <strong>The right to erase your personal data</strong> &#8211; we have made it easy for you to delete your historical data on the App, while
-                continuing to use the App. Simply tap on the <strong>delete your data </strong>button in your privacy settings. We will delete the data which we
-                are not otherwise required to keep or is necessary for the provision of the Service. And no need to worry – deleting your data won’t remove the
-                chats on your Dial App App on your phone. Note that when you deactivate the Dial App account your data and chats are automatically deleted from
-                your devices.
-              </li>
-
-              <li>
-                <strong>The right to object to our use of your personal data</strong> &#8211; you can object to the processing of certain forms of data by
-                contacting our support. Complete this by contacting us on:
-                <b>plugapp2022@gmail.com</b>
-                and explain your special circumstances. If you receive emails from us, you can always opt out on the bottom of the email, or by contacting our
-                support.
-              </li>
-
-              <li>
-                <strong>The right to withdraw consent &#8211;</strong> where we have collected or other process your personal data based on your consent and
-                permissions, at any time, you have the right withdraw your consent.
-              </li>
-              <li>
-                <strong>The right to lodge a complaint with your local data protection authority.</strong>
-              </li>
-            </ul>
-            <br />
-            <br />
-            We provide you with the ability to independently exercise certain choices and controls in connection with your personal data – please see details
-            under the &#8220;
-            <span>
-              <strong>
-                <a href="#your-choices-and-controls">Your Choices</a>
-              </strong>
-            </span>
-            &#8221; paragraph above. If you wish to further exercise your rights, please contact us as specified under &#8220;
-            <span>
-              <strong>
-                <a href="#contact-us">Contact Us</a>
-              </strong>
-            </span>
-            &#8221; section below. We will contact you if we need additional information from you in order to honor your requests.
-            <p className="my-4 text-blue-600">
-              <a href="#top">Back to top</a>
-
-              <br />
-              <a id="data-security"></a>
-            </p>
-          </div>
-          <div className="mt-8 text-left text-base text-gray-800">
-            <h6 className="mb-4 font-bold text-blue-600"> Data Security and Storage</h6> At Dial App, we take information security seriously and have strict
-            security measures in place to ensure that your account and your personal data are safe. Here you can find information regarding the security
-            measures we have in place.
-            <br />
-            <br />
-            We implement technical and organizational measures to ensure a level of security appropriate to the risk to the personal data we process. These
-            measures are aimed at ensuring the ongoing integrity and confidentiality of personal data.
-            <p className="my-4 text-blue-600">
-              <a href="#top">Back to top</a>
-
-              <br />
-              <a id="third-parties"></a>
-            </p>
-          </div>
-          <div className="mt-8 text-left text-base text-gray-800">
-            <h6 className="mb-4 font-bold text-blue-600">Third-Party Websites, Apps and Back-Ups</h6>
-            Our App may contain links to other third-party websites or you may access Apps from a third-party website. We are not responsible for the data
-            collection by such third parties, and their privacy practices and polices shall govern your personal data processed by them.
-            <br />
-            <br />
-            <h6 className="my-4 text-blue-600">Third parties’ websites and apps:</h6>
-            If you access or Services and App from any third-party website or other digital source, or access any third-party site from our Services and App,
-            note that, your use and the personal data collected will be subject to such third party’s practices and we do not monitor, nor responsible for the
-            privacy practices of these third parties.
-            <h6 className="my-4 text-blue-600">Back-ups:</h6>
-            If you voluntarily choose to back up your Dial App conversations, such back-ups are made by independent third parties and kept on your device’s
-            service according to operating system’s (Google/ iOS) terms and policies and are no longer protected by Dial App’s end-to-end encryption nor Dial
-            App has any control over it. This is also true for using Dial App Desktop – where your conversations are kept on your personal computer under your
-            security definitions.
-            <h6 className="my-4 text-blue-600">TrueDepth APIs:</h6>
-            Starting the end of June 2021 we added a new face lens feature that uses camera capabilities in order to add graphic elements on the user’s face.
-            Some lenses can make use of TrueDepth API. TrueDepth API is only active when those lenses are running. It is a very specific feature and none of the
-            Dial App lenses will be using it at the moment. Types of lenses that might use it are virtual try-on, which we don’t have. Dial App does not collect
-            any data from these sensors or ever store it anywhere. The data never leaves the user’s device (so cannot be, and is not, shared by Dial App with
-            third parties) and is only used for lens operation.
-            <p className="my-4 text-blue-600">
-              <a href="#top">Back to top</a>
-
-              <br />
-              <a id="children-privacy"></a>
-            </p>
-          </div>
-
-          <div className="mt-8 text-left text-base text-gray-800">
-            <h6 className="mb-4 font-bold text-blue-600"> Children’s Privacy</h6>
-            Our Services are not intended for children under the age of 13 and we do not knowingly collect personal data from individuals under this age.
-            <br />
-            <br />
-            Our Services are not intended for children under the age of 13. Therefore, we do not knowingly collect personal data via our websites, applications,
-            services, or tools from anyone under 13.
-            <p className="my-4 text-blue-600">
-              <a href="#top">Back to top</a>
-
-              <br />
-              <a id="changes"></a>
-            </p>
-          </div>
-          <div className="mt-8 text-left text-base text-gray-800">
-            <h6 className="mb-4 font-bold text-blue-600">Changes to this Privacy Policy</h6>
-            We may make changes to this Privacy Policy from time to time. If we do (except for minor tweaks), we will notify you via our App and website.
-            <br />
-            <br />
-            We may modify or update this privacy notice from time to time.
-            <br />
-            <br />
-            If we change this privacy policy (except for technical tweaks), we will notify you of the changes. Where changes to this Privacy Policy will have a
-            fundamental impact on the nature of the collection or use of your personal data, or otherwise have a substantial impact on you, we will give you
-            sufficient advance notice so that you have the opportunity to exercise your rights. The last modification date of this privacy policy will be
-            reflected in the “Last Updated” header above.
-            <p className="my-4 text-blue-600">
-              <a href="#top">Back to top</a>
-
-              <br />
-              <a id="contact-us"></a>
-            </p>
-          </div>
-
-          <div className="mt-8 text-left text-base text-gray-800">
-            <h6 className="mb-4 font-bold text-blue-600">Contact us</h6>
-            If you have any questions or suggestions about our Privacy Policy, do not hesitate to contact us at plugapp2022@gmail.com.
-            <ul>
-              <li>
-                <strong>By mail:</strong>
-                plugapp2022@gmail.com.
-              </li>
-            </ul>
+            9: Grievance Officer: We have appointed a grievance officer, under authorization, in accordance with the Information Technology Act, 2000 and the
+            rules made thereunder, for the purpose of redressing any grievances or complaints you may have regarding the handling of Your Personal Information.
+            You can contact the designated Grievance Officer for the purpose of this Privacy Policy, namely, Aniket Shah, at zingapp2024@gmail.com. For order
+            related concerns, reach out to zingapp2024@gmail.com. <br /> <br />
+            10: Questions? Please feel free to contact at this zingapp2024@gmail.com regarding any questions on the Privacy Policy. We will use reasonable
+            efforts to respond promptly to requests, questions or concerns You may have regarding Our use of Your Personal Information. Except where required by
+            law.
           </div>
         </div>
       </section>
