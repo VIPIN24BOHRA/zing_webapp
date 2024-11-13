@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import React from 'react'
 
 import Footer from '@/components/Footer'
@@ -9,102 +10,117 @@ const Home = () => (
     <div className="h-full pt-[64px]">
       <section className="flex h-1/2 place-content-center py-8">
         <div className="z-30 place-content-center px-16 md:px-48">
-          <div className="mb-5 w-full text-center text-2xl font-extrabold leading-7 text-black">Terms & Conditions for Dial App</div>
+          <div className="mb-5 w-full text-center text-2xl font-extrabold leading-7 text-black">Terms & Conditions for Zing App</div>
 
-          <div className="mt-5 text-left text-base text-gray-800">
-            By downloading or using the app, these terms will automatically apply to you - you should make sure therefore that you read them carefully before
-            using the app. You&apos;re not allowed to copy or modify the app, any part of the app, or our trademarks in any way. You&apos;re not allowed to
-            attempt to extract the source code of the app, and you also shouldn&apos;t try to translate the app into other languages or make derivative
-            versions. The app itself, and all the trademarks, copyright, database rights, and other intellectual property rights related to it, still belong to
-            ABMR Holdings Pte Ltd.
-          </div>
-          <div className="mt-5 text-left text-base text-gray-800">
-            ABMR Holdings Pte Ltd is committed to ensuring that the app is as useful and efficient as possible. For that reason, we reserve the right to make
-            changes to the app or to charge for its services, at any time and for any reason. We will never charge you for the app or its services without
-            making it very clear to you exactly what you&apos;re paying for.
-          </div>
-          <div className="mt-5 text-left text-base text-gray-800">
-            The Dial App app stores and processes personal data that you have provided to us, to provide our Service. It&apos;s your responsibility to keep your
-            phone and access to the app secure. We therefore recommend that you do not jailbreak or root your phone, which is the process of removing software
-            restrictions and limitations imposed by the official operating system of your device. It could make your phone vulnerable to
-            malware/viruses/malicious programs, compromise your phone&apos;s security features and it could mean that the Dial App app won&apos;t work properly
-            or at all.
-          </div>
-          <div className="mt-5 text-left text-base text-gray-800">The app does use third-party services that declare their Terms and Conditions.</div>
-          <div className="mt-5 text-left text-base text-gray-800">
-            {' '}
-            Link to Terms and Conditions of third-party service providers used by the app
-            <ul className="ml-10 list-disc">
-              <li>
-                <a className="text-blue-600 visited:text-purple-600" href="https://www.google.com/policies/privacy/" target="_blank" rel="noopener noreferrer">
-                  Google Play Services
-                </a>
-              </li>
-              <li>
-                <a
-                  className="text-blue-600 visited:text-purple-600"
-                  href="https://firebase.google.com/policies/analytics"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Google Analytics for Firebase
-                </a>
-              </li>
-              <li>
-                <a
-                  className="text-blue-600 visited:text-purple-600"
-                  href="https://firebase.google.com/support/privacy/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Firebase Crashlytics
-                </a>
-              </li>
-            </ul>
-          </div>
-          <div className="mt-5 text-left text-base text-gray-800">
-            You should be aware that there are certain things that ABMR Holdings Pte Ltd will not take responsibility for. Certain functions of the app will
-            require the app to have an active internet connection. The connection can be Wi-Fi or provided by your mobile network provider, but ABMR Holdings
-            Pte Ltd cannot take responsibility for the app not working at full functionality if you don&apos;t have access to Wi-Fi, and you don&apos;t have any
-            of your data allowance left.
-          </div>
-          <div className="mt-5 text-left text-base text-gray-800">
-            If you&apos;re using the app outside of an area with Wi-Fi, you should remember that the terms of the agreement with your mobile network provider
-            will still apply. As a result, you may be charged by your mobile provider for the cost of data for the duration of the connection while accessing
-            the app, or other third-party charges. In using the app, you&apos;re accepting responsibility for any such charges, including roaming data charges
-            if you use the app outside of your home territory (i.e. region or country) without turning off data roaming. If you are not the bill payer for the
-            device on which you&apos;re using the app, please be aware that we assume that you have received permission from the bill payer for using the app.
-          </div>
-          <div className="mt-5 text-left text-base text-gray-800">
-            Along the same lines, ABMR Holdings Pte Ltd cannot always take responsibility for the way you use the app i.e. You need to make sure that your
-            device stays charged - if it runs out of battery and you can&apos;t turn it on to avail the Service, ABMR Holdings Pte Ltd cannot accept
-            responsibility.
-          </div>
-          <div className="mt-5 text-left text-base text-gray-800">
-            With respect to ABMR Holdings Pte Ltd&apos;s responsibility for your use of the app, when you&apos;re using the app, it&apos;s important to bear in
-            mind that although we endeavor to ensure that it is updated and correct at all times, we do rely on third parties to provide information to us so
-            that we can make it available to you. ABMR Holdings Pte Ltd accepts no liability for any loss, direct or indirect, you experience as a result of
-            relying wholly on this functionality of the app.
-          </div>
-          <div className="mt-5 text-left text-base text-gray-800">
-            At some point, we may wish to update the app. The app is currently available on Android - the requirements for the system(and for any additional
-            systems we decide to extend the availability of the app to) may change, and you&apos;ll need to download the updates if you want to keep using the
-            app. ABMR Holdings Pte Ltd does not promise that it will always update the app so that it is relevant to you and/or works with the Android version
-            that you have installed on your device. However, you promise to always accept updates to the application when offered to you, We may also wish to
-            stop providing the app, and may terminate use of it at any time without giving notice of termination to you. Unless we tell you otherwise, upon any
-            termination, (a) the rights and licenses granted to you in these terms will end; (b) you must stop using the app, and (if needed) delete it from
-            your device.
-          </div>
+          <ol className="list-decimal">
+            <li>
+              This document is an electronic record in terms of Information Technology Act, 2000 and rules there under as applicable and the amended provisions
+              pertaining to electronic records in various statutes as amended by the Information Technology Act, 2000. This electronic record is generated by a
+              computer system and does not require any physical or digital signatures.
+            </li>
 
-          <div className="mt-5 w-full text-left text-xl text-black">Changes to This Terms and Conditions</div>
-          <div className="text-left text-base text-gray-800">
-            We may update our Terms and Conditions from time to time. Thus, you are advised to review this page periodically for any changes. We will notify you
-            of any changes by posting the new Terms and Conditions on this page. These terms and conditions are effective as of 2022-12-21
-          </div>
-          <div className="mt-5 w-full text-left text-xl text-black">Contact Us</div>
-          <div className="text-left text-base text-gray-800">
-            If you have any questions or suggestions about our Privacy Policy, do not hesitate to contact us at plugapp2022@gmail.com.
-          </div>
+            <li>
+              This document is published in accordance with the provisions of Rule 3 (1) of the Information Technology (Intermediaries guidelines) Rules, 2011
+              that require publishing the rules and regulations, privacy policy and Terms of Use for access or usage of domain name https://play. ('Website'),
+              including the related mobile{' '}
+              <a href="https://play.google.com/store/apps/details?id=com.food.zingFood" className="text-[rgb(0,0,255)]">
+                {' '}
+                https://play.google.com/store/apps/details?id=com.food.zingFood
+              </a>{' '}
+              site and mobile application (hereinafter referred to as 'Platform').
+            </li>
+
+            <li>
+              The Platform is owned by <b>NARA VIDEO TECH PVTLTD</b> Gurgaon ,Gurgaon ,India , a company incorporated under the Companies Act, 1956 with its
+              registered office at 716, ILD Trade Centre,Sector-47 Sohna Road, (hereinafter referred to as ‘Platform Owner’, 'we', 'us', 'our')
+            </li>
+
+            <li>
+              Your use of the Platform and services and tools are governed by the following terms and conditions (“Terms of Use”) as applicable to the Platform
+              including the applicable policies which are incorporated herein by way of reference. If You transact on the Platform, You shall be subject to the
+              policies that are applicable to the Platform for such transaction. By mere use of the Platform, You shall be contracting with the Platform Owner
+              and these terms and conditions including the policies constitute Your binding obligations, with Platform Owner. These Terms of Use relate to your
+              use of our website, goods (as applicable) or services (as applicable) (collectively, 'Services'). Any terms and conditions proposed by You which
+              are in addition to or which conflict with these Terms of Use are expressly rejected by the Platform Owner and shall be of no force or effect.
+              These Terms of Use can be modified at any time without assigning any reason. It is your responsibility to periodically review these Terms of Use
+              to stay informed of updates
+            </li>
+
+            <li>
+              For the purpose of these Terms of Use, wherever the context so requires ‘you’, 'your' or ‘user’ shall mean any natural or legal person who has
+              agreed to become a user/buyer on the Platform.
+            </li>
+
+            <li>
+              ACCESSING, BROWSING OR OTHERWISE USING THE PLATFORM INDICATES YOUR AGREEMENT TO ALL THE TERMS AND CONDITIONS UNDER THESE TERMS OF USE, SO PLEASE
+              READ THE TERMS OF USE CAREFULLY BEFORE PROCEEDING
+            </li>
+            <li>
+              {' '}
+              The use of Platform and/or availing of our Services is subject to the following Terms of Use:
+              <ol className="list-decimal ml-8">
+                <li>
+                  To access and use the Services, you agree to provide true, accurate and complete information to us during and after registration, and you
+                  shall be responsible for all acts done through the use of your registered account on the Platform
+                </li>
+                <li>
+                  Neither we nor any third parties provide any warranty or guarantee as to the accuracy, timeliness, performance, completeness or suitability of
+                  the information and materials offered on this website or through the Services, for any specific purpose. You acknowledge that such information
+                  and materials may contain inaccuracies or errors and we expressly exclude liability for any such inaccuracies or errors to the fullest extent
+                  permitted by law.
+                </li>
+                <li>
+                  Your use of our Services and the Platform is solely and entirely at your own risk and discretion for which we shall not be liable to you in
+                  any manner. You are required to independently assess and ensure that the Services meet your requirements.
+                </li>
+                <li>
+                  The contents of the Platform and the Services are proprietary to us and are licensed to us. You will not have any authority to claim any
+                  intellectual property rights, title, or interest in its contents. The contents includes and is not limited to the design, layout, look and
+                  graphics
+                </li>
+                <li>
+                  You acknowledge that unauthorized use of the Platform and/or the Services may lead to action against you as per these Terms of Use and/or
+                  applicable laws
+                </li>
+                <li> You agree to pay us the charges associated with availing the Services..</li>
+                <li>
+                  You agree not to use the Platform and/ or Services for any purpose that is unlawful, illegal or forbidden by these Terms, or Indian or local
+                  laws that might apply to you.
+                </li>
+                <li>
+                  You agree and acknowledge that website and the Services may contain links to other third party websites. On accessing these links, you will be
+                  governed by the terms of use, privacy policy and such other policies of such third party websites. These links are provided for your
+                  convenience for provide further information.
+                </li>
+                <li>
+                  You understand that upon initiating a transaction for availing the Services you are entering into a legally binding and enforceable contract
+                  with the Platform Owner for the Services.
+                </li>
+                <li>
+                  You shall indemnify and hold harmless Platform Owner, its affiliates, group companies (as applicable) and their respective officers,
+                  directors, agents, and employees, from any claim or demand, or actions including reasonable attorney's fees, made by any third party or
+                  penalty imposed due to or arising out of Your breach of this Terms of Use, privacy Policy and other Policies, or Your violation of any law,
+                  rules or regulations or the rights (including infringement of intellectual property rights) of a third party.
+                </li>
+                <li>
+                  Notwithstanding anything contained in these Terms of Use, the parties shall not be liable for any failure to perform an obligation under these
+                  Terms if performance is prevented or delayed by a force majeure event.
+                </li>
+                <li>
+                  These Terms and any dispute or claim relating to it, or its enforceability, shall be governed by and construed in accordance with the laws of
+                  India..
+                </li>
+
+                <li>
+                  All disputes arising out of or in connection with these Terms shall be subject to the exclusive jurisdiction of the courts in Gurgaon and
+                  Haryana .
+                </li>
+                <li>
+                  All concerns or communications relating to these Terms must be communicated to us using the contact information provided on this website
+                </li>
+              </ol>
+            </li>
+          </ol>
         </div>
       </section>
     </div>
