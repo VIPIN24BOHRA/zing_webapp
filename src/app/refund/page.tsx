@@ -23,7 +23,7 @@ const Home = () => (
               already made.
             </li>
             <li>
-              Any refunds will be credited back into users account <b>in 48 hours</b>
+              Any refunds will be credited back into users account <b>in 2 days</b>
             </li>
           </ol>
         </div>
