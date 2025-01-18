@@ -1,5 +1,5 @@
 {
-  "name": "dial",
+  "name": "zing_web",
   "version": "0.0.1",
   "scripts": {
     "dev": "cross-env NODE_OPTIONS=\"--max_old_space_size=8192\" next dev",
@@ -90,5 +90,5 @@
       "path": "@commitlint/cz-commitlint"
     }
   },
-  "author": "Manish05 (https://github.com/manish05)"
+  "author": "VIPIN24BOHRA (https://github.com/VIPIN24BOHRA)"
 }
