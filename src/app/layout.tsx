@@ -7,6 +7,7 @@ const Layout = ({ children }: any) => (
     <head>
       <meta charSet="utf-8" />
       <meta name="viewport" content="width=device-width" />
+      <meta name="fast2sms" content="eKCW18gOepVGcd4pbfq6HuV4YfAhUSKz"></meta>
       <link rel="shortcut icon" href="/icons/favicon.ico" type="image/x-icon" />
       <link rel="icon" href="favicon.ico" type="image/x-icon" />
 
