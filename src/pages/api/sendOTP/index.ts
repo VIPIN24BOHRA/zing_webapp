@@ -43,7 +43,7 @@ async function handlePostRequest(req: NextApiRequest, res: NextApiResponse) {
       expireAt: Date.now() + 15 * 60 * 1000,
     }
 
-    const phoneNumberIn = phoneNumber?.replace('91', '')
+    const phoneNumberIn = phoneNumber?.replace('+', '')?.replace('91', '')
 
     const isSent = await sendFastOTPSMS(phoneNumberIn, OTP)
     if (isSent) {
