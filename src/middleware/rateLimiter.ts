@@ -20,6 +20,8 @@ export default function rateLimitMiddleware(handler: any) {
       ipData.lastReset = Date.now()
     }
 
+    console.log(ipData)
+
     if (ipData.count >= limit) {
       console.log(ip, ipData, ipData.count)
       return res.status(429).send('Too Many Requests')
