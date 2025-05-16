@@ -7,9 +7,8 @@ import type { NextApiRequest, NextApiResponse } from 'next'
 
 import { generateOTP } from '@/utils/helper'
 import { sendFastOTPSMS } from '@/modules/otpSMS/fast2sms'
-import { createUserForOTPSMS, getWaUserDetails } from '@/modules/firebase/database'
+import { createUserForOTPSMS } from '@/modules/firebase/database'
 import rateLimitMiddleware from '@/middleware/rateLimiter'
-
 
 async function handleGetRequest(_req: NextApiRequest, res: NextApiResponse) {
   try {
@@ -68,4 +67,4 @@ const handler = async (req: NextApiRequest, res: NextApiResponse) => {
   else if (req.method === 'GET') await handleGetRequest(req, res)
   else res.status(400).send('Invalid request method')
 }
-export default  rateLimitMiddleware(handler)
+export default rateLimitMiddleware(handler)
