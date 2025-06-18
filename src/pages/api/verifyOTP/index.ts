@@ -4,8 +4,8 @@
 /* eslint-disable eqeqeq */
 
 import type { NextApiRequest, NextApiResponse } from 'next'
-import { getWaUserDetails, setWaUserDetails } from '@/modules/firebase/database'
-import { createCustomToken } from '@/modules/firebase/auth'
+// import { getWaUserDetails, setWaUserDetails } from '@/modules/firebase/database'
+// import { createCustomToken } from '@/modules/firebase/auth'
 
 async function handleGetRequest(_req: NextApiRequest, res: NextApiResponse) {
   try {
@@ -15,7 +15,7 @@ async function handleGetRequest(_req: NextApiRequest, res: NextApiResponse) {
   }
 }
 
-async function handlePostRequest(req: NextApiRequest, res: NextApiResponse) {
+async function handlePostRequest(_req: NextApiRequest, res: NextApiResponse) {
   try {
     // const { apiKey, phoneNumber, OTP } = await req.body
 
@@ -68,7 +68,8 @@ async function handlePostRequest(req: NextApiRequest, res: NextApiResponse) {
     //     token: token,
     //   },
     // })
-   return res.status(403).send({ msg: 'bye bye' })
+    res.status(403).send({ msg: 'bye bye' })
+    return
   } catch (e) {
     // eslint-disable-next-line no-console
 

@@ -5,9 +5,9 @@
 
 import type { NextApiRequest, NextApiResponse } from 'next'
 
-import { generateOTP } from '@/utils/helper'
-import { sendFastOTPSMS } from '@/modules/otpSMS/fast2sms'
-import { createUserForOTPSMS } from '@/modules/firebase/database'
+// import { generateOTP } from '@/utils/helper'
+// import { sendFastOTPSMS } from '@/modules/otpSMS/fast2sms'
+// import { createUserForOTPSMS } from '@/modules/firebase/database'
 import rateLimitMiddleware from '@/middleware/rateLimiter'
 
 async function handleGetRequest(_req: NextApiRequest, res: NextApiResponse) {
@@ -18,7 +18,7 @@ async function handleGetRequest(_req: NextApiRequest, res: NextApiResponse) {
   }
 }
 
-async function handlePostRequest(req: NextApiRequest, res: NextApiResponse) {
+async function handlePostRequest(_req: NextApiRequest, res: NextApiResponse) {
   try {
     // const { apiKey, phoneNumber } = req.body
 
@@ -55,7 +55,8 @@ async function handlePostRequest(req: NextApiRequest, res: NextApiResponse) {
     // console.log(`otp ${isSent ? 'Sent' : 'not Sent'} for ${phoneNumber} : ${OTP}`)
     // res.status(200).send({ success: true })
     // return
-    return res.status(403).send({ msg: 'bye bye' })
+    res.status(403).send({ msg: 'bye bye' })
+    return
   } catch (e: any) {
     // eslint-disable-next-line no-console
     console.error(e)
