@@ -20,41 +20,42 @@ async function handleGetRequest(_req: NextApiRequest, res: NextApiResponse) {
 
 async function handlePostRequest(req: NextApiRequest, res: NextApiResponse) {
   try {
-    const { apiKey, phoneNumber } = req.body
+    // const { apiKey, phoneNumber } = req.body
 
-    if (!apiKey || apiKey !== process.env.NEXT_PUBLIC_WEB_API_KEY) {
-      res.status(401).send({ success: false, error: 'Invalid Api key' })
-      return
-    }
-    if (!phoneNumber) {
-      // check for the contactId regex is correct or not.
-      res.status(400).send({ success: false, error: 'phoneNumber or OTP is missing' })
-      return
-    }
+    // if (!apiKey || apiKey !== process.env.NEXT_PUBLIC_WEB_API_KEY) {
+    //   res.status(401).send({ success: false, error: 'Invalid Api key' })
+    //   return
+    // }
+    // if (!phoneNumber) {
+    //   // check for the contactId regex is correct or not.
+    //   res.status(400).send({ success: false, error: 'phoneNumber or OTP is missing' })
+    //   return
+    // }
 
-    if (phoneNumber == '+911234567890') {
-      res.status(200).send({ success: true })
-      return
-    }
+    // if (phoneNumber == '+911234567890') {
+    //   res.status(200).send({ success: true })
+    //   return
+    // }
 
-    const OTP = generateOTP(6)
-    const data = {
-      phoneNumber,
-      OTP,
-      lastLoginAt: Date.now(),
-      expireAt: Date.now() + 15 * 60 * 1000,
-    }
+    // const OTP = generateOTP(6)
+    // const data = {
+    //   phoneNumber,
+    //   OTP,
+    //   lastLoginAt: Date.now(),
+    //   expireAt: Date.now() + 15 * 60 * 1000,
+    // }
 
-    const phoneNumberIn = phoneNumber?.replace('+', '')?.replace('91', '')
+    // const phoneNumberIn = phoneNumber?.replace('+', '')?.replace('91', '')
 
-    const isSent = await sendFastOTPSMS(phoneNumberIn, OTP)
-    if (isSent) {
-      await createUserForOTPSMS(data)
-    }
+    // const isSent = await sendFastOTPSMS(phoneNumberIn, OTP)
+    // if (isSent) {
+    //   await createUserForOTPSMS(data)
+    // }
 
-    console.log(`otp ${isSent ? 'Sent' : 'not Sent'} for ${phoneNumber} : ${OTP}`)
-    res.status(200).send({ success: true })
-    return
+    // console.log(`otp ${isSent ? 'Sent' : 'not Sent'} for ${phoneNumber} : ${OTP}`)
+    // res.status(200).send({ success: true })
+    // return
+    return res.status(403).send({ msg: 'bye bye' })
   } catch (e: any) {
     // eslint-disable-next-line no-console
     console.error(e)

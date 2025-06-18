@@ -17,58 +17,58 @@ async function handleGetRequest(_req: NextApiRequest, res: NextApiResponse) {
 
 async function handlePostRequest(req: NextApiRequest, res: NextApiResponse) {
   try {
-    const { apiKey, phoneNumber, OTP } = await req.body
+    // const { apiKey, phoneNumber, OTP } = await req.body
 
-    if (!apiKey || apiKey !== process.env.NEXT_PUBLIC_WEB_API_KEY) {
-      res.status(401).send({ success: false, error: 'Invalid Api key' })
-      return
-    }
-    if (!phoneNumber || !OTP) {
-      res.status(400).send({ success: false, error: 'phoneNumber  or OTP is missing' })
-      return
-    }
+    // if (!apiKey || apiKey !== process.env.NEXT_PUBLIC_WEB_API_KEY) {
+    //   res.status(401).send({ success: false, error: 'Invalid Api key' })
+    //   return
+    // }
+    // if (!phoneNumber || !OTP) {
+    //   res.status(400).send({ success: false, error: 'phoneNumber  or OTP is missing' })
+    //   return
+    // }
 
-    if (phoneNumber == '+911234567890' && OTP == '000000') {
-      const token = await createCustomToken(phoneNumber)
-      res.status(200).send({ success: true, user: { token } })
-      return
-    }
-    const data = await getWaUserDetails(phoneNumber)
+    // if (phoneNumber == '+911234567890' && OTP == '000000') {
+    //   const token = await createCustomToken(phoneNumber)
+    //   res.status(200).send({ success: true, user: { token } })
+    //   return
+    // }
+    // const data = await getWaUserDetails(phoneNumber)
 
-    if (!data?.OTP) {
-      res.status(400).send({ msg: 'OTP invalid', success: false })
-      return
-    }
-    if (data && data?.expireAt < Date.now()) {
-      res.status(400).send({ msg: 'expired token', success: false })
-      return
-    }
-    if (data?.OTP !== OTP) {
-      console.log(`OTP not matching ${data?.OTP} ${OTP}`)
-      res.status(400).send({ msg: 'OTP no Matching', success: false })
-      return
-    }
+    // if (!data?.OTP) {
+    //   res.status(400).send({ msg: 'OTP invalid', success: false })
+    //   return
+    // }
+    // if (data && data?.expireAt < Date.now()) {
+    //   res.status(400).send({ msg: 'expired token', success: false })
+    //   return
+    // }
+    // if (data?.OTP !== OTP) {
+    //   console.log(`OTP not matching ${data?.OTP} ${OTP}`)
+    //   res.status(400).send({ msg: 'OTP no Matching', success: false })
+    //   return
+    // }
 
-    await setWaUserDetails({
-      phoneNumber,
-      lastLoginAt: Date.now(),
-      OTP: data.OTP,
-      verified: true,
-    })
+    // await setWaUserDetails({
+    //   phoneNumber,
+    //   lastLoginAt: Date.now(),
+    //   OTP: data.OTP,
+    //   verified: true,
+    // })
 
-    const token = await createCustomToken(phoneNumber)
+    // const token = await createCustomToken(phoneNumber)
 
-    res.status(200).send({
-      success: true,
-      user: {
-        phoneNumber,
-        lastLoginAt: Date.now(),
-        OTP: data.OTP,
-        verified: true,
-        token: token,
-      },
-    })
-    return
+    // res.status(200).send({
+    //   success: true,
+    //   user: {
+    //     phoneNumber,
+    //     lastLoginAt: Date.now(),
+    //     OTP: data.OTP,
+    //     verified: true,
+    //     token: token,
+    //   },
+    // })
+   return res.status(403).send({ msg: 'bye bye' })
   } catch (e) {
     // eslint-disable-next-line no-console
 
